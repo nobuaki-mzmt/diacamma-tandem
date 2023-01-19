@@ -1,8 +1,8 @@
 # README
 
-This repository provides access to the data and source code used for the manuscript
-Cryptic functional diversity in ant tandem runs  
-by Nobuaki Mizumoto<sup>1</sup>, Yasunari Tanaka<sup>2</sup>, Gabriele Valentini<sup>3</sup>, Thomas O. Richardson<sup>4</sup>, Sumana Annagiri<sup>5</sup>, Stephen C Pratt<sup>6</sup>, Hiroyuki Shimoji<sup>2</sup>  
+This repository provides access to the data and source code used for the manuscript  
+**Cryptic functional diversity in ant tandem runs**  
+Nobuaki Mizumoto<sup>1</sup>, Yasunari Tanaka<sup>2</sup>, Gabriele Valentini<sup>3</sup>, Thomas O. Richardson<sup>4</sup>, Sumana Annagiri<sup>5</sup>, Stephen C Pratt<sup>6</sup>, Hiroyuki Shimoji<sup>2</sup>  
 
 <sup>1</sup> Okinawa Institute of Science & Technology Graduate University, Onna-son, Okinawa, Japan  
 <sup>2</sup> School of Biological and Environmental Sciences, Kwansei Gakuin University, Sanda, Hyogo 669-1337, Japan  
@@ -60,7 +60,7 @@ See the Method and Supplementary Materials for more details.
   * [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py) - python scripts to creat masked videos
   * [test](./tracking/test) - example of tracking
     * [TandemTrackingMethods.md](./tracking/test/TandemTrackingMethods.md) - a notebook for tracking
-    * 1. run [FastTrack](./tracking/test/FastTrack)
-    * 2. run [TrackingConverter.R](./tracking/TrackingConverter.R) with [data](./tracking/test/data)
-    * 3. run [VideoPrepPython](./tracking/test/VideoPrepPython)
-    * 4. run [UMATracker](./tracking/test/UMATracker)
+    * 1. [FastTrack](./tracking/test/FastTrack)
+    * 2. [TrackingConverter.R](./tracking/TrackingConverter.R) with [data](./tracking/test/data)
+    * 3. [VideoPrepPython](./tracking/test/VideoPrepPython)
+    * 4. [UMATracker](./tracking/test/UMATracker)
