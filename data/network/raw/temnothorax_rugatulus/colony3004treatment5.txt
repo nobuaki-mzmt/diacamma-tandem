@@ -1,0 +1,279 @@
+Colony Treatment Time Ant Behavior LocationOrigin SourceDestination
+3004 5 0:00:00 OldUncoded Open old 
+3004 5 0:31:01 **** E mediocre 
+3004 5 0:32:04 POOB E good 
+3004 5 0:32:16 **** L mediocre 
+3004 5 0:35:07 POOB L good 
+3004 5 0:44:30 GP** E mediocre 
+3004 5 0:44:38 POOB E mediocre 
+3004 5 0:44:45 POOB L mediocre 
+3004 5 0:45:14 GP** L mediocre 
+3004 5 0:48:14 GY**(1) E good 
+3004 5 0:52:00 GP** E mediocre 
+3004 5 0:52:26 GP** L mediocre 
+3004 5 0:52:30 GP** E mediocre 
+3004 5 0:52:53 GP** L mediocre 
+3004 5 0:54:09 GY**(1) L good 
+3004 5 0:58:12 P*B* E mediocre 
+3004 5 1:00:16 P*B* L mediocre 
+3004 5 1:01:08 **** E good 
+3004 5 1:01:34 PG*G E mediocre 
+3004 5 1:05:14 PG*G L mediocre 
+3004 5 1:06:06 **** L good 
+3004 5 1:07:16 GY**(1) E good 
+3004 5 1:08:38 **** E mediocre 
+3004 5 1:10:28 **** L mediocre 
+3004 5 1:10:43 **** E mediocre 
+3004 5 1:11:21 **** L mediocre 
+3004 5 1:14:13 GY**(1) L good 
+3004 5 1:17:58 **** E good 
+3004 5 1:18:55 **** L good 
+3004 5 1:23:47 GY**(1) E good 
+3004 5 1:31:04 GY**(1) L good 
+3004 5 1:32:15 GY**(2) E mediocre 
+3004 5 1:34:30 GY**(2) L mediocre 
+3004 5 1:44:16 P*B* E mediocre 
+3004 5 1:46:16 GY**(1) E good 
+3004 5 1:46:45 P*B* L mediocre 
+3004 5 1:51:31 PG*G E mediocre 
+3004 5 1:51:36 PG*G L mediocre 
+3004 5 1:53:36 GY**(1) L good 
+3004 5 1:53:47 GY**(1) E good 
+3004 5 1:55:40 GY**(1) L good 
+3004 5 1:57:06 P*B* E mediocre 
+3004 5 1:58:48 P*B* L mediocre 
+3004 5 1:59:11 *OPB E mediocre 
+3004 5 2:00:51 GP** FB old good
+3004 5 2:00:51 GY**(1) LB old good
+3004 5 2:01:15 *OPB L mediocre 
+3004 5 2:01:18 *OPB E mediocre 
+3004 5 2:01:39 P*B* FB old good
+3004 5 2:01:47 GY**(1) E good 
+3004 5 2:01:54 P*B* E good 
+3004 5 2:02:30 *OPB L mediocre 
+3004 5 2:02:33 *OPB E mediocre 
+3004 5 2:02:40 GP** E good 
+3004 5 2:03:14 GP** L good 
+3004 5 2:04:04 GP** E good 
+3004 5 2:04:14 *OPB L mediocre 
+3004 5 2:04:49 GP** L good 
+3004 5 2:05:00 *OPB E mediocre 
+3004 5 2:05:24 *OPB L mediocre 
+3004 5 2:06:20 GP** E good 
+3004 5 2:07:13 GP** FB good old
+3004 5 2:07:13 GY**(1) LB good old
+3004 5 2:08:10 GY**(1) L good 
+3004 5 2:08:16 GP** L good 
+3004 5 2:15:59 **** E good 
+3004 5 2:18:22 GY**(1) TA good old?
+3004 5 2:18:22 WB**1 BC good old?
+3004 5 2:20:37 GY**(1) L good 
+3004 5 2:21:23 GP** E good 
+3004 5 2:23:51 GY**(1) TB good old?
+3004 5 2:25:54 GY**(1) L good 
+3004 5 2:26:56 *OPB E mediocre 
+3004 5 2:27:21 *OPB L mediocre 
+3004 5 2:27:28 *OPB E mediocre 
+3004 5 2:27:32 *OPB L mediocre 
+3004 5 2:27:34 *OPB E mediocre 
+3004 5 2:28:38 *OPB L mediocre 
+3004 5 2:29:34 GY**(1) TA good old?
+3004 5 2:29:34 P*PY BC good old?
+3004 5 2:31:52 GY**(1) L good 
+3004 5 2:35:20 P*B* L good 
+3004 5 2:36:19 P*B* E good 
+3004 5 2:38:03 *OPB BC good old?
+3004 5 2:38:03 GY**(1) TA good old?
+3004 5 2:39:04 GY**(1) L good 
+3004 5 2:39:32 POOB E good 
+3004 5 2:43:27 GY**(1) TA good old?
+3004 5 2:43:27 GY**(2) BC good old?
+3004 5 2:44:42 GY**(1) LB good old
+3004 5 2:44:42 P*B* FB good old
+3004 5 2:44:56 GY**(1) L good 
+3004 5 2:44:58 P*B* L good 
+3004 5 2:45:35 **** FB good old
+3004 5 2:45:35 POOB LB good old
+3004 5 2:48:04 **** FB good old
+3004 5 2:48:04 POOB LB good old
+3004 5 2:49:35 GY**(1) TB good old?
+3004 5 2:50:39 **** FB good old
+3004 5 2:50:39 GY**(1) LB good old
+3004 5 2:51:32 GY**(1) L good 
+3004 5 2:51:41 **** L good 
+3004 5 2:52:16 GP** L good 
+3004 5 2:52:27 GP** E good 
+3004 5 2:54:07 P*B* TB good old?
+3004 5 2:54:35 POOB L good 
+3004 5 2:55:29 POOB E good 
+3004 5 2:56:58 GY**(1) TB good old?
+3004 5 2:57:24 POOB L good 
+3004 5 2:57:37 P*B* L good 
+3004 5 2:58:14 GY**(1) L good 
+3004 5 2:58:29 GY**(2) L good 
+3004 5 3:00:37 GY**(2) E good 
+3004 5 3:01:03 **** E good 
+3004 5 3:01:09 GPPO BC good old?
+3004 5 3:01:09 GY**(1) TA good old?
+3004 5 3:01:28 GP** L good 
+3004 5 3:01:56 GY**(1) L good 
+3004 5 3:02:28 **** L good 
+3004 5 3:02:41 GY**(2) L good 
+3004 5 3:03:05 P*B* TB good old?
+3004 5 3:04:29 GY**(1) TA good old?
+3004 5 3:04:29 WW** BC good old?
+3004 5 3:05:03 P*B* L good 
+3004 5 3:06:01 GY**(1) L good 
+3004 5 3:07:03 *OPB L good 
+3004 5 3:08:41 GY**(1) TA good old?
+3004 5 3:08:41 O*** BC good old?
+3004 5 3:09:26 GOBW BC good old?
+3004 5 3:09:26 P*B* TA good old?
+3004 5 3:09:29 GP** E good 
+3004 5 3:10:13 P*B* L good 
+3004 5 3:10:15 *OPB E good 
+3004 5 3:10:18 GY**(1) L good 
+3004 5 3:10:24 *OPB L good 
+3004 5 3:10:27 *OPB E good 
+3004 5 3:10:41 GP** L good 
+3004 5 3:12:01 GW** BC good old?
+3004 5 3:12:01 GY**(2) TA good old?
+3004 5 3:12:57 GY**(2) L good 
+3004 5 3:13:06 GY**(1) TA good old?
+3004 5 3:13:06 PYYP BC good old?
+3004 5 3:13:23 **** TB good old?
+3004 5 3:13:45 POOB TA good old?
+3004 5 3:13:45 YBGO BC good old?
+3004 5 3:13:53 *OPB L good 
+3004 5 3:14:24 GY**(1) L good 
+3004 5 3:14:49 **** FB good old
+3004 5 3:14:49 POOB LB good old
+3004 5 3:15:09 POOB L good 
+3004 5 3:16:31 GY**(1) TB good old?
+3004 5 3:16:45 P*B* TB good old?
+3004 5 3:16:59 **** L good 
+3004 5 3:17:30 GOBW L good 
+3004 5 3:17:51 GY**(1) L good 
+3004 5 3:18:01 P*B* L good 
+3004 5 3:18:14 GP** TB good old?
+3004 5 3:18:20 PG*G BC good old?
+3004 5 3:18:20 POOB TA good old?
+3004 5 3:18:52 *OPB TB good old?
+3004 5 3:19:33 GOBW E good 
+3004 5 3:19:42 GY**(1) TA good old?
+3004 5 3:19:42 QUEEN BC good old?
+3004 5 3:19:53 BBWB BC good old?
+3004 5 3:19:53 GY**(2) TA good old?
+3004 5 3:19:55 *OPB L good 
+3004 5 3:20:00 GP** L good 
+3004 5 3:20:04 *OPB TB good old?
+3004 5 3:20:34 POOB L good 
+3004 5 3:20:37 *OPB L good 
+3004 5 3:20:40 GY**(1) L good 
+3004 5 3:21:13 GY**(2) L good 
+3004 5 3:21:40 P*B* TA good old?
+3004 5 3:21:40 WPWP BC good old?
+3004 5 3:22:24 P*B* L good 
+3004 5 3:22:48 GP** TB good old?
+3004 5 3:22:51 GY**(1) TA good old?
+3004 5 3:22:51 WWGY BC good old?
+3004 5 3:23:26 GOBW L good 
+3004 5 3:23:46 GY**(1) L good 
+3004 5 3:23:49 GP** L good 
+3004 5 3:24:11 **** TB good old?
+3004 5 3:24:33 *OPB TB good old?
+3004 5 3:24:57 P*B* TA good old?
+3004 5 3:24:57 PGGP BC good old?
+3004 5 3:25:01 GY**(2) TB good old?
+3004 5 3:25:07 **** L good 
+3004 5 3:25:15 P*B* L good 
+3004 5 3:25:30 *OPB L good 
+3004 5 3:25:47 GY**(2) L good 
+3004 5 3:26:12 GY**(1) TB good old?
+3004 5 3:26:17 POOB TB good old?
+3004 5 3:27:05 GY**(1) L good 
+3004 5 3:27:06 GP** TB good old?
+3004 5 3:27:23 OGPG BC good old?
+3004 5 3:27:23 P*B* TA good old?
+3004 5 3:27:58 GP** L good 
+3004 5 3:27:59 P*B* L good 
+3004 5 3:28:01 POOB L good 
+3004 5 3:28:08 GY**(2) TA good old?
+3004 5 3:28:08 OBGB BC good old?
+3004 5 3:28:11 *OPB TA good old?
+3004 5 3:28:11 WB**2 BC good old?
+3004 5 3:28:26 *OPB L good 
+3004 5 3:28:35 GY**(2) L good 
+3004 5 3:28:55 **** TB good old?
+3004 5 3:29:54 **** L good 
+3004 5 3:29:56 GY**(1) TB good old?
+3004 5 3:30:14 GW** L good 
+3004 5 3:30:33 P*B* TB good old?
+3004 5 3:30:45 GOBW TB good old?
+3004 5 3:30:48 GY**(1) L good 
+3004 5 3:30:52 *OPB TB good old?
+3004 5 3:31:00 GY**(2) TB good old?
+3004 5 3:31:29 GY**(2) L good 
+3004 5 3:31:45 P*B* L good 
+3004 5 3:32:11 *OPB L good 
+3004 5 3:32:19 GOBW L good 
+3004 5 3:32:34 **** TB good old?
+3004 5 3:32:53 GP** TB good old?
+3004 5 3:33:24 *OPY BC good old?
+3004 5 3:33:24 GY**(1) TA good old?
+3004 5 3:34:04 **** L good 
+3004 5 3:34:22 GY**(2) TB good old?
+3004 5 3:34:24 GY**(1) L good 
+3004 5 3:34:28 POOB TA good old?
+3004 5 3:34:28 YPP* BC good old?
+3004 5 3:34:35 *OPB TA good old?
+3004 5 3:34:35 WOYB BC good old?
+3004 5 3:34:57 GY**(2) L good 
+3004 5 3:35:02 OY** BC good old?
+3004 5 3:35:02 P*B* TA good old?
+3004 5 3:35:10 *OPB L good 
+3004 5 3:35:26 POOB L good 
+3004 5 3:35:39 P*B* L good 
+3004 5 3:38:48 *OPB TA good old?
+3004 5 3:38:48 GY**(1) BC good old?
+3004 5 3:39:33 *OPB L good 
+3004 5 3:39:48 GW** E good 
+3004 5 3:40:11 PG*G L good 
+3004 5 3:41:03 GY**(2) TA good old?
+3004 5 3:41:03 WBOG BC good old?
+3004 5 3:41:58 GY**(2) L good 
+3004 5 3:42:30 GY**(1) L good 
+3004 5 3:43:58 WWGY L good 
+3004 5 3:44:01 GOBW BC good old?
+3004 5 3:44:01 WWGY TA good old?
+3004 5 3:45:53 BBWB L good 
+3004 5 3:46:24 **** E good 
+3004 5 3:46:59 WBOG L good 
+3004 5 3:47:27 WWGY L good 
+3004 5 3:48:38 BBWB E good 
+3004 5 3:51:39 *OPB E good 
+3004 5 3:52:13 POOB E mediocre 
+3004 5 3:52:40 POOB L mediocre 
+3004 5 3:52:52 **** L good 
+3004 5 3:53:16 GW** L good 
+3004 5 3:54:02 GP** L good 
+3004 5 3:54:48 GY**(1) BC good old?
+3004 5 3:54:48 P*B* TA good old?
+3004 5 3:55:37 POOB E good 
+3004 5 3:55:51 WBOG E good 
+3004 5 3:59:32 P*B* L good 
+3004 5 4:01:48 PG*G E good 
+3004 5 4:04:44 PG*G L good 
+3004 5 4:05:20 GY**(2) E good 
+3004 5 4:05:25 P*B* E good 
+3004 5 4:06:28 **** E good 
+3004 5 4:06:48 GY**(1) L good 
+3004 5 4:06:59 P*B* L good 
+3004 5 4:07:28 GW** E good 
+3004 5 4:07:44 *OPB L good 
+3004 5 4:14:03 GOBW L good 
+3004 5 4:15:01 GY**(1) E good 
+3004 5 4:16:30 *OPB E good 
+3004 5 4:17:39 GP** E good 
+3004 5 4:20:15 **** L good 
+3004 5 4:20:51 P*B* E good 

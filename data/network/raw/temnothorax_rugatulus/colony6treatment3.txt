@@ -1,0 +1,972 @@
+Colony Treatment Time Ant Behavior LocationOrigin SourceDestination
+6 3 0:00:00 OldUncoded Open old 
+6 3 0:35:45 *W**1 E mediocre 
+6 3 0:36:47 WGOW E good 
+6 3 0:37:09 **** E mediocre 
+6 3 0:37:36 *W**1 L mediocre 
+6 3 0:38:13 OO**1 E mediocre 
+6 3 0:38:25 **** L mediocre 
+6 3 0:40:56 OO**1 L mediocre 
+6 3 1:09:31 WGG* E mediocre 
+6 3 1:10:15 WGG* L mediocre 
+6 3 1:10:29 PYO* E mediocre 
+6 3 1:12:07 PYO* L mediocre 
+6 3 1:31:37 PB** E mediocre 
+6 3 1:34:15 WGOW L good 
+6 3 1:43:12 PB** L mediocre 
+6 3 1:46:00 WGOW E good 
+6 3 1:48:55 WGOW L good 
+6 3 1:57:39 PYGL E mediocre 
+6 3 1:58:03 PYGL L mediocre 
+6 3 1:58:35 WGOW E mediocre 
+6 3 1:58:59 **WW E mediocre 
+6 3 2:00:27 WGOW L mediocre 
+6 3 2:01:00 **WW L mediocre 
+6 3 2:01:44 **WW E mediocre 
+6 3 2:04:21 P*Y* BC good old?
+6 3 2:04:21 WOo*1 TA good old?
+6 3 2:04:30 **WW L mediocre 
+6 3 2:09:36 WOo*1 L good 
+6 3 2:11:24 P*Y* L good 
+6 3 2:14:54 WGOW E good 
+6 3 2:16:12 LO*Y E mediocre 
+6 3 2:16:21 WGOW L good 
+6 3 2:18:04 LO*Y L mediocre 
+6 3 2:18:09 Y*yG E mediocre 
+6 3 2:21:14 WGOW E good 
+6 3 2:22:46 BPpY E mediocre 
+6 3 2:23:29 WGOW L good 
+6 3 2:25:38 Yo*O E mediocre 
+6 3 2:25:41 Yo*O L mediocre 
+6 3 2:26:00 Y*yG L mediocre 
+6 3 2:28:02 BPpY L mediocre 
+6 3 2:30:40 WO**1 E mediocre 
+6 3 2:32:11 WO**1 L mediocre 
+6 3 2:32:24 WO**1 E mediocre 
+6 3 2:33:14 PG** E mediocre 
+6 3 2:34:15 WO**1 L mediocre 
+6 3 2:35:37 WGOW E good 
+6 3 2:36:36 PG** L mediocre 
+6 3 2:37:01 WGOW L good 
+6 3 2:46:18 YO** E mediocre 
+6 3 2:47:10 **YY E mediocre 
+6 3 2:47:42 YO** L mediocre 
+6 3 2:48:39 **YY L mediocre 
+6 3 2:49:13 P*Y* E good 
+6 3 2:57:05 P*Y* L good 
+6 3 2:58:35 P*Y* E good 
+6 3 3:05:08 P*Y* L good 
+6 3 3:12:26 Y*yG E good 
+6 3 3:12:54 WGOW E good 
+6 3 3:17:50 WGOW L good 
+6 3 3:21:14 PG** E good 
+6 3 3:22:49 PG** L good 
+6 3 3:23:07 P*Y* E mediocre 
+6 3 3:23:12 P*Y* L mediocre 
+6 3 3:24:01 WGOW E good 
+6 3 3:24:03 WGOW L good 
+6 3 3:27:30 GO** E mediocre 
+6 3 3:29:18 Y*yG L good 
+6 3 3:30:25 GO** L mediocre 
+6 3 3:33:46 PYGL E mediocre 
+6 3 3:33:59 PYGL L mediocre 
+6 3 3:35:44 P*Y* E good 
+6 3 3:37:08 Y*yG E good 
+6 3 3:38:08 P*Y* L good 
+6 3 3:42:10 GO** E mediocre 
+6 3 3:43:35 GO** L mediocre 
+6 3 3:46:17 BWYL E mediocre 
+6 3 3:47:08 Y*yG L good 
+6 3 3:47:14 WGOW E good 
+6 3 3:47:36 *W**1 E mediocre 
+6 3 3:49:07 BWYL L mediocre 
+6 3 3:50:40 WO**1 E mediocre 
+6 3 3:53:01 WO**1 L mediocre 
+6 3 3:53:26 WO**1 E mediocre 
+6 3 3:53:29 WGOW L good 
+6 3 3:54:19 *W**1 L mediocre 
+6 3 4:04:54 WO**1 L mediocre 
+6 3 4:05:37 WGOW E good 
+6 3 4:08:03 WGOW L good 
+6 3 4:16:15 P*Y* E good 
+6 3 4:17:36 PO** E mediocre 
+6 3 4:19:31 PO** L mediocre 
+6 3 4:19:36 PO** E mediocre 
+6 3 4:19:58 P*Y* L good 
+6 3 4:20:48 PO** L mediocre 
+6 3 4:34:15 WPWY E mediocre 
+6 3 4:35:37 WPWY L mediocre 
+6 3 4:38:56 Y*yG E good 
+6 3 4:40:12 WOo*1 E good 
+6 3 4:44:37 WOo*1 L good 
+6 3 4:44:50 **YY E mediocre 
+6 3 4:45:29 YO** E mediocre 
+6 3 4:46:55 WOo*1 E good 
+6 3 4:51:14 WOo*1 L good 
+6 3 4:52:41 WGOW E good 
+6 3 4:53:31 WGOW L good 
+6 3 4:54:15 YO** L mediocre 
+6 3 4:55:35 PO** E mediocre 
+6 3 4:56:01 Y*yG L good 
+6 3 4:56:48 WGOW E mediocre 
+6 3 4:57:12 **YY L mediocre 
+6 3 4:57:19 **YY E mediocre 
+6 3 4:58:23 PO** L mediocre 
+6 3 4:59:07 WGOW L mediocre 
+6 3 4:59:10 WGOW E mediocre 
+6 3 5:00:45 *W**1 E mediocre 
+6 3 5:01:00 **YY L mediocre 
+6 3 5:02:48 *W**1 L mediocre 
+6 3 5:04:18 WGOW L mediocre 
+6 3 5:08:41 GO** E mediocre 
+6 3 5:09:16 WO**1 E mediocre 
+6 3 5:09:26 WOo*1 E good 
+6 3 5:10:55 GO** L mediocre 
+6 3 5:11:03 WO**1 L mediocre 
+6 3 5:11:55 P*Y* E good 
+6 3 5:13:23 YO** E mediocre 
+6 3 5:15:05 Y*yG E good 
+6 3 5:15:05 YO** L mediocre 
+6 3 5:15:22 Y*yG L good 
+6 3 5:17:05 P*** E mediocre 
+6 3 5:17:09 WOo*1 L good 
+6 3 5:17:23 WGOW E good 
+6 3 5:19:34 WGOW L good 
+6 3 5:22:02 P*** L mediocre 
+6 3 5:25:41 P*Y* L good 
+6 3 5:27:11 P*Y* E good 
+6 3 5:30:20 WGOW E mediocre 
+6 3 5:30:24 **WW E mediocre 
+6 3 5:33:10 **WW L mediocre 
+6 3 5:33:39 WGOW L mediocre 
+6 3 5:33:48 WGOW E mediocre 
+6 3 5:35:03 WGOW L mediocre 
+6 3 5:40:25 WGOW E good 
+6 3 5:41:45 P*Y* BCO good ?
+6 3 5:41:45 WGOW TAO good ?
+6 3 5:49:10 PYGL E mediocre 
+6 3 5:59:52 PYGL L mediocre 
+6 3 6:01:22 WGOW E good 
+6 3 6:02:57 **WW E mediocre 
+6 3 6:04:17 WGOW L good 
+6 3 6:07:57 **WW L mediocre 
+6 3 6:10:05 Y*yG E good 
+6 3 6:13:13 Y*PO E mediocre 
+6 3 6:13:18 Y*PO L mediocre 
+6 3 6:16:34 P*Y* E good 
+6 3 6:24:43 WGOW E good 
+6 3 6:24:44 WGOW L good 
+6 3 6:37:00 PG** E mediocre 
+6 3 6:40:08 PG** L mediocre 
+6 3 6:41:01 P*Y* L good 
+6 3 6:42:27 Y*yG L good 
+6 3 6:43:01 P*Y* E good 
+6 3 6:45:01 WPWY E mediocre 
+6 3 6:45:13 WPWY L mediocre 
+6 3 6:53:21 WOo*1 E good 
+6 3 6:58:42 P*Y* L good 
+6 3 7:05:13 WOo*1 L good 
+6 3 7:07:19 WOo*1 E good 
+6 3 7:09:13 *w**0 E mediocre 
+6 3 7:09:27 YO** E good 
+6 3 7:14:16 *w**0 L mediocre 
+6 3 7:14:48 *w**0 E mediocre 
+6 3 7:15:12 WGOW E mediocre 
+6 3 7:15:32 PG** E mediocre 
+6 3 7:15:57 OO**1 E mediocre 
+6 3 7:18:15 *W**1 E mediocre 
+6 3 7:19:32 PG** L mediocre 
+6 3 7:20:16 *W**1 L mediocre 
+6 3 7:20:24 WGOW L mediocre 
+6 3 7:21:30 Y*yG E good 
+6 3 7:22:39 BWYL E mediocre 
+6 3 7:25:06 WGOW E good 
+6 3 7:25:21 WOo*1 L good 
+6 3 7:26:01 P*Y* E good 
+6 3 7:27:22 *w**0 L mediocre 
+6 3 7:27:52 YO** L good 
+6 3 7:28:43 BWYL L mediocre 
+6 3 7:28:58 BWYL E mediocre 
+6 3 7:30:16 BWYL L mediocre 
+6 3 7:30:17 OO**1 L mediocre 
+6 3 7:33:00 WO**1 E good 
+6 3 7:33:35 Y*yG L good 
+6 3 7:35:46 WGOW L good 
+6 3 7:38:43 PG** E good 
+6 3 7:39:18 YO** E good 
+6 3 7:40:01 PG** L good 
+6 3 7:42:29 WOo*1 E good 
+6 3 7:44:26 YO** L good 
+6 3 7:44:33 LO*Y E good 
+6 3 7:51:08 WO**1 L good 
+6 3 7:52:15 WOo*1 L good 
+6 3 7:54:24 *W**1 E mediocre 
+6 3 7:54:28 *W**1 L mediocre 
+6 3 7:54:36 YO** E good 
+6 3 7:54:52 *W**1 E mediocre 
+6 3 7:54:56 *W**1 L mediocre 
+6 3 7:55:05 *W**1 E mediocre 
+6 3 7:55:06 *W**1 L mediocre 
+6 3 7:56:52 P*Y* L good 
+6 3 7:57:34 WOo*1 E good 
+6 3 7:58:48 YO** L good 
+6 3 7:59:06 YO** E good 
+6 3 8:00:15 *W**1 E mediocre 
+6 3 8:08:25 LO*Y L good 
+6 3 8:09:08 YO** L good 
+6 3 8:09:54 *w**0 E mediocre 
+6 3 8:11:39 WOo*1 L good 
+6 3 8:11:56 WO**1 E good 
+6 3 8:12:47 *W**1 L mediocre 
+6 3 8:13:18 BWYL E mediocre 
+6 3 8:13:21 Y*yG E good 
+6 3 8:15:01 WO**1 L good 
+6 3 8:16:22 WL** FB old good
+6 3 8:16:22 YO** LB old good
+6 3 8:16:35 YO** E good 
+6 3 8:16:49 WL** E good 
+6 3 8:17:02 BWYL L mediocre 
+6 3 8:17:55 WL** L good 
+6 3 8:18:02 WL** E good 
+6 3 8:18:18 *W**1 E mediocre 
+6 3 8:18:33 WL** L good 
+6 3 8:18:47 WL** E good 
+6 3 8:19:07 WL** L good 
+6 3 8:19:12 WL** E good 
+6 3 8:19:19 *W**1 L mediocre 
+6 3 8:19:44 WL** L good 
+6 3 8:19:48 BWYL E mediocre 
+6 3 8:20:06 **WW E mediocre 
+6 3 8:20:57 WL** E good 
+6 3 8:21:20 *w**0 L mediocre 
+6 3 8:22:04 YO** L good 
+6 3 8:22:35 YO** E good 
+6 3 8:22:40 *w**0 E mediocre 
+6 3 8:22:45 WGOW E mediocre 
+6 3 8:22:47 *w**0 L mediocre 
+6 3 8:22:54 *w**0 E mediocre 
+6 3 8:24:00 P*Y* E good 
+6 3 8:24:18 WGOW L mediocre 
+6 3 8:25:06 PG** E mediocre 
+6 3 8:25:10 PG** L mediocre 
+6 3 8:25:22 BWYL L mediocre 
+6 3 8:25:27 BWYL E mediocre 
+6 3 8:25:35 BWYL L mediocre 
+6 3 8:26:40 PGGY E mediocre 
+6 3 8:27:34 YO** L good 
+6 3 8:28:47 **WW L mediocre 
+6 3 8:30:40 WOo*1 E good 
+6 3 8:31:26 YO** E good 
+6 3 8:31:35 P*Y* L good 
+6 3 8:34:20 *w**0 L mediocre 
+6 3 8:37:08 PGGY L mediocre 
+6 3 8:38:52 Y*yG L good 
+6 3 8:39:22 YO** L good 
+6 3 8:40:20 WOo*1 L good 
+6 3 8:44:45 P*Y* LB old good
+6 3 8:44:45 WOo*1 FB old good
+6 3 8:44:48 BWYL E mediocre 
+6 3 8:45:00 *W**1 E mediocre 
+6 3 8:45:05 P*Y* E good 
+6 3 8:45:10 WOo*1 E good 
+6 3 8:45:42 WGG* FB old good
+6 3 8:45:42 YO** LB old good
+6 3 8:45:55 YO** E good 
+6 3 8:46:01 WGG* E good 
+6 3 8:46:57 LO*Y E good 
+6 3 8:51:54 BWYL L mediocre 
+6 3 8:52:00 P*Y* L good 
+6 3 8:52:27 WOo*1 L good 
+6 3 8:52:45 YO** L good 
+6 3 8:53:22 BWYL E mediocre 
+6 3 8:53:40 LO*Y L good 
+6 3 8:53:48 YO** E good 
+6 3 8:54:24 Y*yG E good 
+6 3 8:57:48 YO** L good 
+6 3 8:59:13 **** E mediocre 
+6 3 8:59:18 Y*yG L good 
+6 3 9:00:56 WL** L good 
+6 3 9:05:06 WO**1 E good 
+6 3 9:06:05 LWLB E mediocre 
+6 3 9:06:08 LWLB L mediocre 
+6 3 9:06:31 BWYL L mediocre 
+6 3 9:06:57 YO** E good 
+6 3 9:07:11 *W**1 L mediocre 
+6 3 9:07:50 PYGL FB old good
+6 3 9:07:50 WOo*1 LB old good
+6 3 9:07:59 WGG* L good 
+6 3 9:08:19 WOo*1 E good 
+6 3 9:08:25 PYGL E good 
+6 3 9:09:38 *W**1 E mediocre 
+6 3 9:10:31 YO** L good 
+6 3 9:13:00 WO**1 L good 
+6 3 9:13:36 WO**1 E good 
+6 3 9:15:35 WOo*1 L good 
+6 3 9:16:39 P*Y* E good 
+6 3 9:17:22 *PWO FB old good
+6 3 9:17:22 YO** LB old good
+6 3 9:18:48 YO** E good 
+6 3 9:19:08 LO*Y E good 
+6 3 9:20:37 *W**1 L mediocre 
+6 3 9:21:09 PYO* FB old good
+6 3 9:21:09 Y*yG LB old good
+6 3 9:21:59 **** L mediocre 
+6 3 9:23:30 *PWO FB old good
+6 3 9:23:34 *w**0 E mediocre 
+6 3 9:24:06 W*YOW FB old good
+6 3 9:24:06 WOo*1 LB old good
+6 3 9:24:09 *PWO E good 
+6 3 9:24:11 Y*yG E good 
+6 3 9:24:14 YO** L good 
+6 3 9:24:15 *PWO L good 
+6 3 9:24:16 PYO* E good 
+6 3 9:24:24 WOo*1 E good 
+6 3 9:24:28 W*YOW E good 
+6 3 9:25:22 BWYL FB old good
+6 3 9:25:22 WL** LB old good
+6 3 9:25:31 *PWO E good 
+6 3 9:25:40 P*Y* L good 
+6 3 9:26:28 WL** E good 
+6 3 9:26:34 BWYL E good 
+6 3 9:27:07 WL** L good 
+6 3 9:27:21 WGG* E good 
+6 3 9:28:31 O*G* E mediocre 
+6 3 9:28:44 *W**1 E mediocre 
+6 3 9:28:44 WL** E good 
+6 3 9:30:06 WL** L good 
+6 3 9:30:51 WL** E good 
+6 3 9:31:41 WL** L good 
+6 3 9:32:33 *w**0 L mediocre 
+6 3 9:32:46 *w**0 E mediocre 
+6 3 9:32:49 Y*yG L good 
+6 3 9:33:15 *w**0 L mediocre 
+6 3 9:33:17 LO*Y L good 
+6 3 9:35:59 WGG* L good 
+6 3 9:36:56 WO**1 L good 
+6 3 9:37:02 WOo*1 L good 
+6 3 9:37:13 O*G* L mediocre 
+6 3 9:38:19 *W**1 L mediocre 
+6 3 9:41:10 O*G* E mediocre 
+6 3 9:41:58 **WW FB old good
+6 3 9:41:58 Y*yG LB old good
+6 3 9:42:31 **WW E good 
+6 3 9:43:36 Y*yG E good 
+6 3 9:43:56 PYGL L good 
+6 3 9:44:50 *w**0 E mediocre 
+6 3 9:44:54 *w**0 L mediocre 
+6 3 9:45:27 YO** E good 
+6 3 9:45:53 Y*yG L good 
+6 3 9:46:29 PGGY BC good old?
+6 3 9:46:29 WO**1 TA good old?
+6 3 9:46:43 WO**1 L good 
+6 3 9:47:10 P*Y* E good 
+6 3 9:47:11 GO** FB old good
+6 3 9:47:11 WO**1 FB old good
+6 3 9:47:11 WOo*1 LB old good
+6 3 9:47:32 WOo*1 E good 
+6 3 9:47:35 GO** E good 
+6 3 9:48:38 O*G* L mediocre 
+6 3 9:48:57 WL** E good 
+6 3 9:49:05 *PWO L good 
+6 3 9:49:21 WO**1 E good 
+6 3 9:50:37 LO*Y E good 
+6 3 9:50:45 BWYL L good 
+6 3 9:50:49 LO*Y L good 
+6 3 9:50:56 LO*Y E good 
+6 3 9:51:27 YO** L good 
+6 3 9:52:37 WOo*1 L good 
+6 3 9:52:51 **WW L good 
+6 3 9:53:08 WGG* LB old good
+6 3 9:53:08 WGOW FB old good
+6 3 9:53:25 WGG* E good 
+6 3 9:53:33 WGOW E good 
+6 3 9:53:56 P*Y* L good 
+6 3 9:54:43 PYO* L good 
+6 3 9:54:51 Y*yG E good 
+6 3 9:54:56 WO**1 L good 
+6 3 9:56:31 WO**1 E good 
+6 3 9:57:13 P*Y* TA good old?
+6 3 9:57:13 WB**1 BC good old?
+6 3 9:58:19 P*Y* L good 
+6 3 9:58:22 Y*PO BC good old?
+6 3 9:58:22 YO** TA good old?
+6 3 9:59:14 WGG* L good 
+6 3 9:59:31 LO*Y L good 
+6 3 9:59:35 YO** L good 
+6 3 10:01:28 PYGL LB old good
+6 3 10:01:28 WOo*1 FB old good
+6 3 10:01:47 *OGL FB old good
+6 3 10:01:47 *PWO LB old good
+6 3 10:02:38 *PWO E good 
+6 3 10:02:47 *OGL E good 
+6 3 10:02:47 PYGL E good 
+6 3 10:02:50 WOo*1 E good 
+6 3 10:03:10 **** FB old good
+6 3 10:03:10 **WW LB old good
+6 3 10:03:36 *W**1 E good 
+6 3 10:03:48 **WW E good 
+6 3 10:03:56 **** E good 
+6 3 10:03:59 *GYP BC good old?
+6 3 10:03:59 P*Y* TA good old?
+6 3 10:04:28 GPGY BC good old?
+6 3 10:04:28 YO** TA good old?
+6 3 10:04:35 Y*yG L good 
+6 3 10:04:45 PYGL L good 
+6 3 10:05:07 P*Y* L good 
+6 3 10:05:47 YO** L good 
+6 3 10:06:11 PYGL E good 
+6 3 10:06:25 WO**1 L good 
+6 3 10:06:37 WO**1 E good 
+6 3 10:06:44 WGOW L good 
+6 3 10:06:52 wp** E mediocre 
+6 3 10:08:16 *PWO L good 
+6 3 10:09:02 wp** L mediocre 
+6 3 10:09:06 wp** E mediocre 
+6 3 10:09:13 LO*Y E good 
+6 3 10:09:55 O**G BC good old?
+6 3 10:09:55 P*Y* TA good old?
+6 3 10:10:03 YO** TB good old?
+6 3 10:10:07 Y*yG E good 
+6 3 10:10:41 P*Y* L good 
+6 3 10:11:17 wp** L mediocre 
+6 3 10:11:27 YO** L good 
+6 3 10:11:37 WO**1 L good 
+6 3 10:11:41 LO*Y L good 
+6 3 10:11:49 WOo*1 L good 
+6 3 10:12:37 PYO* E good 
+6 3 10:13:00 BWYL BC good old?
+6 3 10:13:00 LO*Y TA good old?
+6 3 10:13:12 PYGL L good 
+6 3 10:13:14 *w**0 E mediocre 
+6 3 10:13:21 Y*yG L good 
+6 3 10:14:14 LO*Y L good 
+6 3 10:14:20 GW** BC good old?
+6 3 10:14:20 YO** TA good old?
+6 3 10:14:33 P*Y* TA good old?
+6 3 10:14:33 WGOW BC good old?
+6 3 10:14:36 **WW L good 
+6 3 10:15:21 YO** L good 
+6 3 10:15:22 BWYL L good 
+6 3 10:15:48 PB** E mediocre 
+6 3 10:16:09 P*Y* L good 
+6 3 10:16:58 WGOW L good 
+6 3 10:17:17 WOo*1 E good 
+6 3 10:17:29 *PWO LB old good
+6 3 10:17:29 PPWO FB old good
+6 3 10:17:39 **WW E good 
+6 3 10:17:54 *PWO E good 
+6 3 10:18:01 PPWO E good 
+6 3 10:18:02 **WW L good 
+6 3 10:19:15 Y*yG E good 
+6 3 10:19:26 WO**1 TB good old?
+6 3 10:20:58 BWYL TB good old?
+6 3 10:21:22 P*Y* TB good old?
+6 3 10:21:30 YO** E good 
+6 3 10:21:34 WGG* E good 
+6 3 10:21:36 Y*yG L good 
+6 3 10:21:46 WOo*1 L good 
+6 3 10:21:50 BWYL L good 
+6 3 10:22:16 YO** L good 
+6 3 10:22:44 WO**1 L good 
+6 3 10:23:44 P*Y* L good 
+6 3 10:23:48 Y*PO L good 
+6 3 10:25:30 WGG* L good 
+6 3 10:26:10 W*W* BC good old?
+6 3 10:26:10 Y*yG TA good old?
+6 3 10:26:13 LO*Y E good 
+6 3 10:26:28 BWYL TB good old?
+6 3 10:26:35 PYGL LB old good
+6 3 10:26:35 Y*PO FB old good
+6 3 10:27:07 WOo*1 TB good old?
+6 3 10:27:21 PYGL E good 
+6 3 10:27:29 BWYL L good 
+6 3 10:27:33 GL** BC good old?
+6 3 10:27:33 Y*PO E good 
+6 3 10:27:33 YO** TA good old?
+6 3 10:27:34 PYGL L good 
+6 3 10:27:50 WGG* E good 
+6 3 10:28:15 Y*yG L good 
+6 3 10:28:40 **WW E good 
+6 3 10:28:46 **** L good 
+6 3 10:28:48 WOo*1 L good 
+6 3 10:28:57 WGOW TB good old?
+6 3 10:29:03 LO*Y L good 
+6 3 10:29:04 PYGL E good 
+6 3 10:29:05 YO** L good 
+6 3 10:29:14 *W**1 L good 
+6 3 10:29:52 PG** E good 
+6 3 10:29:57 *OPO BC good old?
+6 3 10:29:57 P*Y* TA good old?
+6 3 10:30:15 PYGL L good 
+6 3 10:30:47 BWYL TB good old?
+6 3 10:30:51 Ly** BC good old?
+6 3 10:30:51 WO**1 TA good old?
+6 3 10:31:02 P*Y* L good 
+6 3 10:31:18 **WW L good 
+6 3 10:31:30 WGOW L good 
+6 3 10:31:40 BWYL L good 
+6 3 10:32:24 WOo*1 E good 
+6 3 10:32:39 *w**0 L mediocre 
+6 3 10:32:44 Y*yG E good 
+6 3 10:33:16 WO**1 L good 
+6 3 10:33:47 WL** L good 
+6 3 10:33:56 PB** L mediocre 
+6 3 10:34:13 YO** TB good old?
+6 3 10:35:01 PYGL E good 
+6 3 10:35:15 Y*PO L good 
+6 3 10:35:19 WL** E good 
+6 3 10:35:25 YO** L good 
+6 3 10:35:38 WL** L good 
+6 3 10:36:18 BWYL TB good old?
+6 3 10:36:27 WL** E good 
+6 3 10:36:34 Y*yG L good 
+6 3 10:37:02 BWYL L good 
+6 3 10:37:08 WOo*1 L good 
+6 3 10:37:21 BPpY BC good old?
+6 3 10:37:21 WO**1 TA good old?
+6 3 10:37:31 WL** L good 
+6 3 10:37:52 PB** E mediocre 
+6 3 10:38:13 WL** E good 
+6 3 10:38:41 P*Y* TB good old?
+6 3 10:38:48 YO** TA good old?
+6 3 10:38:48 Yo*O BC good old?
+6 3 10:38:52 LO*Y TA good old?
+6 3 10:38:52 wp** BC good old?
+6 3 10:39:13 *PWO L good 
+6 3 10:39:24 WL** L good 
+6 3 10:39:27 YO** L good 
+6 3 10:39:33 WGG* L good 
+6 3 10:39:56 P*Y* L good 
+6 3 10:40:00 WL** E good 
+6 3 10:40:10 BWYL TB good old?
+6 3 10:40:12 Y*yG TB good old?
+6 3 10:40:14 PB** L mediocre 
+6 3 10:40:33 LO*Y L good 
+6 3 10:40:53 BWYL L good 
+6 3 10:41:06 GGLO BC good old?
+6 3 10:41:06 WGOW TA good old?
+6 3 10:41:55 Y*yG L good 
+6 3 10:42:36 YO** TB good old?
+6 3 10:42:42 *W**1 E good 
+6 3 10:42:57 WO**1 L good 
+6 3 10:43:07 WGOW L good 
+6 3 10:43:09 **WW E good 
+6 3 10:44:03 P*Y* TB good old?
+6 3 10:44:42 YO** L good 
+6 3 10:45:13 P*Y* L good 
+6 3 10:45:54 **WW L good 
+6 3 10:46:49 BWYL TB good old?
+6 3 10:47:10 PYGL L good 
+6 3 10:47:16 BWYL L good 
+6 3 10:47:44 WO**1 TB good old?
+6 3 10:48:04 **YY BC good old?
+6 3 10:48:04 WGOW TA good old?
+6 3 10:48:35 P*Y* TB good old?
+6 3 10:48:36 Y*yG TB good old?
+6 3 10:48:44 WGG* E good 
+6 3 10:48:44 YO** TB good old?
+6 3 10:48:58 WGOW L good 
+6 3 10:49:03 *W**1 L good 
+6 3 10:49:04 WO**1 L good 
+6 3 10:49:12 wp** L good 
+6 3 10:49:15 *W**1 LB good old
+6 3 10:49:15 wp** FB good old
+6 3 10:49:36 P*Y* L good 
+6 3 10:49:50 LO*Y TA good old?
+6 3 10:49:50 OBWO BC good old?
+6 3 10:50:04 YO** L good 
+6 3 10:50:23 bYWL BC good old?
+6 3 10:50:23 WOo*1 TA good old?
+6 3 10:50:26 Y*yG L good 
+6 3 10:50:33 *PWO TU good 
+6 3 10:50:47 BWYL TB good old?
+6 3 10:51:09 WL** L good 
+6 3 10:51:21 BWYL L good 
+6 3 10:51:42 WOo*1 L good 
+6 3 10:52:09 **** BC good old?
+6 3 10:52:09 **WW TA good old?
+6 3 10:52:15 BYYP BC good old?
+6 3 10:52:15 WO**1 TA good old?
+6 3 10:52:27 P*Y* TB good old?
+6 3 10:52:29 YO** TB good old?
+6 3 10:52:38 WGG* L good 
+6 3 10:52:51 WO**1 L good 
+6 3 10:53:23 P*Y* L good 
+6 3 10:53:32 YO** L good 
+6 3 10:53:49 **WW L good 
+6 3 10:54:07 LO*Y L good 
+6 3 10:54:08 *OOG BC good old?
+6 3 10:54:08 *PWO L good 
+6 3 10:54:08 Y*yG TA good old?
+6 3 10:54:11 WGOW TB good old?
+6 3 10:54:47 BWYL TA good old?
+6 3 10:54:47 WBPO BC good old?
+6 3 10:54:58 WL** E good 
+6 3 10:55:17 Y*PO E good 
+6 3 10:55:33 WGOW L good 
+6 3 10:55:34 WL** L good 
+6 3 10:55:35 GPGY L good 
+6 3 10:55:38 BWYL L good 
+6 3 10:55:45 WGGW BC good old?
+6 3 10:55:45 YO** TA good old?
+6 3 10:55:57 GO** L good 
+6 3 10:55:58 Y*yG L good 
+6 3 10:56:30 WO**1 TB good old?
+6 3 10:56:38 YO** L good 
+6 3 10:56:50 WL** E good 
+6 3 10:57:03 PO** E good 
+6 3 10:57:22 *gOl BC good old?
+6 3 10:57:22 WOo*1 TA good old?
+6 3 10:57:31 GO** E good 
+6 3 10:57:41 *W**1 E good 
+6 3 10:57:58 Gg** BC good old?
+6 3 10:57:58 P*Y* TA good old?
+6 3 10:58:17 **** L good 
+6 3 10:58:30 **WW E good 
+6 3 10:58:36 PG** L good 
+6 3 10:58:57 P*Y* L good 
+6 3 10:59:14 WO**1 L good 
+6 3 10:59:15 WOo*1 L good 
+6 3 10:59:23 BWYL TB good old?
+6 3 10:59:34 Y*yG TA good old?
+6 3 10:59:34 YP*B BC good old?
+6 3 10:59:54 LO*Y TB good old?
+6 3 11:00:03 BWYL L good 
+6 3 11:00:11 Y*PO L good 
+6 3 11:00:20 GPGY E good 
+6 3 11:00:34 WGOW TB good old?
+6 3 11:00:38 **WW L good 
+6 3 11:00:40 PG** E good 
+6 3 11:00:48 *w**0 BC good old?
+6 3 11:00:48 WGG* TA good old?
+6 3 11:00:57 LG** BC good old?
+6 3 11:00:57 YO** TA good old?
+6 3 11:01:09 GPGY L good 
+6 3 11:01:23 Y*yG L good 
+6 3 11:01:26 GPGY E good 
+6 3 11:01:47 WGOW L good 
+6 3 11:01:58 YO** L good 
+6 3 11:02:02 *PWO TB good old?
+6 3 11:02:20 *O** BC good old?
+6 3 11:02:20 P*Y* TA good old?
+6 3 11:02:37 LO*Y L good 
+6 3 11:02:53 *P**1 BC good old?
+6 3 11:02:53 WO**1 TA good old?
+6 3 11:02:56 BWYL TB good old?
+6 3 11:03:13 *W**1 L good 
+6 3 11:03:14 GO** L good 
+6 3 11:03:14 WOo*1 TB good old?
+6 3 11:03:46 WGG* L good 
+6 3 11:03:58 **YG BC good old?
+6 3 11:03:58 YO** TA good old?
+6 3 11:03:59 P*Y* L good 
+6 3 11:04:09 OO**1 E good 
+6 3 11:04:22 BWYL L good 
+6 3 11:04:24 Y*yG TB good old?
+6 3 11:04:34 wp** E good 
+6 3 11:04:52 **** TA good old?
+6 3 11:04:52 PB** BC good old?
+6 3 11:05:04 WGOW TB good old?
+6 3 11:05:05 WOo*1 L good 
+6 3 11:05:07 YO** L good 
+6 3 11:05:20 PYGL E good 
+6 3 11:05:48 **WW TA good old?
+6 3 11:05:48 G*PG BC good old?
+6 3 11:06:00 WO**1 L good 
+6 3 11:06:05 *PWO L good 
+6 3 11:06:14 WL** L good 
+6 3 11:06:18 **** L good 
+6 3 11:06:43 wp** L good 
+6 3 11:07:05 Y*yG L good 
+6 3 11:07:27 BWYL TB good old?
+6 3 11:07:30 WGOW L good 
+6 3 11:07:31 LO*Y TB good old?
+6 3 11:07:35 P*Y* TB good old?
+6 3 11:07:57 **WW L good 
+6 3 11:07:59 OO**1 L good 
+6 3 11:08:05 BWYL L good 
+6 3 11:08:32 PG** L good 
+6 3 11:08:50 LO*Y L good 
+6 3 11:09:01 P*Y* L good 
+6 3 11:09:12 OO**1 E good 
+6 3 11:09:26 WOo*1 TB good old?
+6 3 11:09:41 PYGL L good 
+6 3 11:09:42 WGG* TB good old?
+6 3 11:09:44 *W**1 TB good old?
+6 3 11:09:45 OO**1 L good 
+6 3 11:09:49 GPGY L good 
+6 3 11:09:51 W*GO BC good old?
+6 3 11:09:51 Y*PO TA good old?
+6 3 11:10:07 WGOW TB good old?
+6 3 11:10:16 WO**1 TA good old?
+6 3 11:10:16 WO**2 BC good old?
+6 3 11:10:34 YO** TB good old?
+6 3 11:10:36 Y*yG TB good old?
+6 3 11:10:40 BWYL TB good old?
+6 3 11:11:14 *PWO E good 
+6 3 11:11:18 BWYL L good 
+6 3 11:11:27 YO** L good 
+6 3 11:11:41 WGOW L good 
+6 3 11:11:42 P*Y* TB good old?
+6 3 11:11:51 *W**1 L good 
+6 3 11:11:53 wp** TB good old?
+6 3 11:11:55 Y*yG L good 
+6 3 11:11:59 WOo*1 L good 
+6 3 11:12:14 WO**1 L good 
+6 3 11:12:42 WGG* L good 
+6 3 11:12:44 Y*PO L good 
+6 3 11:12:48 P*Y* L good 
+6 3 11:12:53 Yo*O L good 
+6 3 11:12:59 *PWO L good 
+6 3 11:13:18 Yo*O E good 
+6 3 11:13:41 LO*Y TB good old?
+6 3 11:13:46 wp** L good 
+6 3 11:13:50 BWYL TB good old?
+6 3 11:13:59 GO** TB good old?
+6 3 11:14:12 O*G* BC good old?
+6 3 11:14:12 YO** TA good old?
+6 3 11:14:21 LO*Y L good 
+6 3 11:14:32 BWYL L good 
+6 3 11:14:50 **WW E good 
+6 3 11:14:54 P*Y* TB good old?
+6 3 11:15:14 WGOW TB good old?
+6 3 11:15:18 YO** L good 
+6 3 11:15:30 PYGL TB good old?
+6 3 11:15:38 GO** L good 
+6 3 11:15:46 PYO* L good 
+6 3 11:15:49 WOo*1 TB good old?
+6 3 11:15:49 Y*yG TB good old?
+6 3 11:15:56 WO**1 TB good old?
+6 3 11:16:00 WGOW L good 
+6 3 11:16:13 P*Y* L good 
+6 3 11:16:15 WL** E good 
+6 3 11:16:30 Yo*O L good 
+6 3 11:16:42 WL** L good 
+6 3 11:17:02 BWYL TB good old?
+6 3 11:17:24 WO**1 L good 
+6 3 11:17:42 WOo*1 L good 
+6 3 11:17:48 Y*yG L good 
+6 3 11:17:55 WGG* TB good old?
+6 3 11:17:59 BWYL L good 
+6 3 11:18:22 PYGL L good 
+6 3 11:18:27 *Pyl BC good old?
+6 3 11:18:27 wp** TA good old?
+6 3 11:18:34 **WW L good 
+6 3 11:18:38 PO** L good 
+6 3 11:18:40 PO** FB good old
+6 3 11:18:40 PYGL LB good old
+6 3 11:18:46 PG** E good 
+6 3 11:18:52 Y*PO TB good old?
+6 3 11:18:56 P*Y* TB good old?
+6 3 11:19:06 WGOW TB good old?
+6 3 11:19:12 WW** BC good old?
+6 3 11:19:12 YO** TA good old?
+6 3 11:19:20 wp** L good 
+6 3 11:19:25 *PWO E good 
+6 3 11:19:35 GPGY E good 
+6 3 11:19:40 P*Y* L good 
+6 3 11:19:55 OO**1 E good 
+6 3 11:20:08 WGOW L good 
+6 3 11:20:11 OO**2 BC good old?
+6 3 11:20:11 WO**1 TA good old?
+6 3 11:20:21 WGG* L good 
+6 3 11:20:34 YO** L good 
+6 3 11:20:38 PG** L good 
+6 3 11:20:40 Y*yG TB good old?
+6 3 11:20:48 WOo*1 TB good old?
+6 3 11:21:00 **** TA good old?
+6 3 11:21:00 P*** BC good old?
+6 3 11:21:18 BW** BC good old?
+6 3 11:21:18 LO*Y TA good old?
+6 3 11:21:22 Y*PO L good 
+6 3 11:21:36 Y*yG L good 
+6 3 11:21:40 WO**1 L good 
+6 3 11:21:49 P*Y* TB good old?
+6 3 11:22:08 LO*Y L good 
+6 3 11:22:09 *PWO L good 
+6 3 11:22:25 GO** TB good old?
+6 3 11:22:31 P*Y* L good 
+6 3 11:22:37 WOo*1 L good 
+6 3 11:22:48 **** L good 
+6 3 11:23:00 WGOW TB good old?
+6 3 11:23:18 *W**2 BC good old?
+6 3 11:23:18 BWYL TA good old?
+6 3 11:23:44 **WW TB good old?
+6 3 11:23:54 BWYL L good 
+6 3 11:23:55 GO** L good 
+6 3 11:24:10 WGOW L good 
+6 3 11:24:20 Queen BC good old?
+6 3 11:24:20 YO** TA good old?
+6 3 11:25:28 WO**1 TB good old?
+6 3 11:25:43 wp** TB good old?
+6 3 11:25:48 **WW L good 
+6 3 11:25:48 P*Y* TB good old?
+6 3 11:26:00 Y*PO TB good old?
+6 3 11:26:14 WGG* TB good old?
+6 3 11:26:20 PG** TB good old?
+6 3 11:26:29 YO** L good 
+6 3 11:26:32 P*Y* L good 
+6 3 11:26:34 *PWO TB good old?
+6 3 11:26:36 PYGL TB good old?
+6 3 11:26:50 BWYL TB good old?
+6 3 11:26:57 WGOW TB good old?
+6 3 11:27:02 W*GW BC good old?
+6 3 11:27:02 Y*yG TA good old?
+6 3 11:27:25 LO*Y TB good old?
+6 3 11:27:36 PYO* E good 
+6 3 11:27:43 Y*PO L good 
+6 3 11:27:54 BWYL L good 
+6 3 11:27:56 WGOW L good 
+6 3 11:28:17 GO** TB good old?
+6 3 11:28:21 PG** L good 
+6 3 11:28:24 WO**1 L good 
+6 3 11:28:36 WOo*1 TA good old?
+6 3 11:28:36 wOo*2 BC good old?
+6 3 11:28:43 WGG* L good 
+6 3 11:28:51 Y*yG L good 
+6 3 11:29:06 P*Y* TB good old?
+6 3 11:29:12 PYO* L good 
+6 3 11:29:21 WOo*1 L good 
+6 3 11:29:23 YO** TB good old?
+6 3 11:29:26 **** TB good old?
+6 3 11:29:35 *PWO L good 
+6 3 11:29:39 wp** L good 
+6 3 11:29:41 GO** L good 
+6 3 11:29:45 PYGL L good 
+6 3 11:29:53 PB** L good 
+6 3 11:29:56 PB** FB good old
+6 3 11:29:56 PYGL LB good old
+6 3 11:30:18 **** L good 
+6 3 11:30:35 BWYL TB good old?
+6 3 11:30:37 WGOW TB good old?
+6 3 11:30:38 P*Y* L good 
+6 3 11:30:39 YO** L good 
+6 3 11:30:41 **WW TB good old?
+6 3 11:31:05 BWYL L good 
+6 3 11:31:25 YO** TB good old?
+6 3 11:31:29 WGOW L good 
+6 3 11:32:07 WB**2 BC good old?
+6 3 11:32:07 WO**1 TA good old?
+6 3 11:32:08 *PYW BC good old?
+6 3 11:32:08 Y*yG TA good old?
+6 3 11:32:12 *W**1 E good 
+6 3 11:32:24 YO** L good 
+6 3 11:32:42 **WW L good 
+6 3 11:32:42 PG** TB good old?
+6 3 11:33:40 LO*Y L good 
+6 3 11:33:52 WL** TB good old?
+6 3 11:34:02 Y*yG L good 
+6 3 11:34:21 WOo*1 TB good old?
+6 3 11:34:42 WL** L good 
+6 3 11:35:09 WL** TB good old?
+6 3 11:35:17 *W**1 L good 
+6 3 11:35:21 PG** L good 
+6 3 11:36:44 WOo*1 L good 
+6 3 11:36:48 *OGL L good 
+6 3 11:36:59 Yo*O E good 
+6 3 11:38:10 PO** E good 
+6 3 11:38:53 WGG* TB good old?
+6 3 11:39:11 WO**1 L good 
+6 3 11:39:27 **** E good 
+6 3 11:39:58 P*Y* BC good old?
+6 3 11:39:58 YO** TA good old?
+6 3 11:40:05 *OGL E good 
+6 3 11:40:08 BWYL E good 
+6 3 11:41:12 Y*PO E good 
+6 3 11:42:18 WL** L good 
+6 3 11:42:30 wp** E mediocre 
+6 3 11:43:42 GO** E good 
+6 3 11:44:37 PYGL E good 
+6 3 11:45:07 PG** E good 
+6 3 11:45:11 LO*Y E good 
+6 3 11:45:34 wp** L mediocre 
+6 3 11:45:55 WGG* L good 
+6 3 11:46:24 WOo*1 E good 
+6 3 11:46:39 *PWO E good 
+6 3 11:46:59 Y*yG E good 
+6 3 11:47:03 *W**1 E good 
+6 3 11:48:29 WO**1 E good 
+6 3 11:48:47 *OGL L good 
+6 3 11:48:50 WGOW E good 
+6 3 11:49:44 *w**0 L good 
+6 3 11:49:59 YO** L good 
+6 3 11:51:00 PYO* E good 
+6 3 11:51:18 **WW E good 
+6 3 11:51:35 wp** E good 
+6 3 11:54:55 **** L good 
+6 3 11:56:04 Y*PO L good 
+6 3 11:56:05 WGG* TB good old?
+6 3 11:56:37 WL** E good 
+6 3 11:57:59 WL** L good 
+6 3 11:58:24 WL** E good 
+6 3 11:59:37 Yo*O L good 
+6 3 11:59:49 P*Y* L good 
+6 3 12:00:31 PYGL L good 
+6 3 12:01:48 PG** L good 
+6 3 12:03:36 Y*PO E good 
+6 3 12:03:59 WGG* L good 
+6 3 12:04:42 *w**0 E mediocre 
+6 3 12:06:23 WOo*1 L good 
+6 3 12:07:10 PYO* L good 
+6 3 12:07:15 YO** E good 
+6 3 12:07:26 **** E good 
+6 3 12:08:10 P*Y* E good 
+6 3 12:08:33 WBPO L good 
+6 3 12:09:11 WGG* TB good old?
+6 3 12:09:32 WO**2 L good 
+6 3 12:10:30 BWYL L good 
+6 3 12:11:06 WGOW L good 
+6 3 12:11:07 WBPO E good 
+6 3 12:11:52 PB** E good 
+6 3 12:12:12 WOo*1 E good 
+6 3 12:13:38 GO** L good 
+6 3 12:13:50 WGG* L good 
+6 3 12:18:55 Y*PO L good 
+6 3 12:19:33 *PWO L good 
+6 3 12:20:32 WGG* TB good old?
+6 3 12:20:38 PYGL E good 
+6 3 12:20:39 PYO* E good 
+6 3 12:21:34 *w**0 L mediocre 
+6 3 12:22:20 Yo*O E good 
+6 3 12:22:33 BWYL E good 
+6 3 12:22:34 WGOW E good 
+6 3 12:22:57 PG** E good 
+6 3 12:23:19 GO** E good 
+6 3 12:24:16 PO** L good 
+6 3 12:24:58 YO** L good 
+6 3 12:30:44 YO** TA good old?
+6 3 12:30:44 YPP* BC good old?
+6 3 12:31:04 *PWO E good 
+6 3 12:31:31 *PWO L good 
+6 3 12:32:07 PPWO L good 
+6 3 12:34:51 P*Y* L good 
+6 3 12:35:38 *W**1 L good 
+6 3 12:37:31 WOo*1 L good 
+6 3 12:37:46 **** L good 
+6 3 12:38:09 P*Y* E good 
+6 3 12:38:42 *OGL E good 
+6 3 12:39:13 PPWO E good 
+6 3 12:40:55 PO** E good 
+6 3 12:41:40 *PWO TU good 
+6 3 12:42:52 WGG* L good 
+6 3 12:43:00 PO** L good 
+6 3 12:43:15 PYO* L good 
+6 3 12:44:31 YO** L good 
+6 3 12:45:09 GO** L good 
+6 3 12:47:10 **WW L good 
+6 3 12:47:14 WOo*1 E good 
+6 3 12:48:34 PO** E good 
+6 3 12:49:01 **** E good 
+6 3 12:49:59 WL** L good 
+6 3 12:50:26 WGG* TU good 
+6 3 12:51:55 WGOW L good 
+6 3 12:52:57 WGG* L good 
+6 3 12:53:55 **WW TU good 
+6 3 12:54:24 P*Y* L good 
+6 3 12:54:35 *W**1 E good 
+6 3 12:55:16 *w**0 TU good 
+6 3 12:56:10 YO** E good 
+6 3 12:56:13 Y*PO E good 
+6 3 12:58:08 **WW L good 
+6 3 12:58:56 GPGY L good 
+6 3 12:58:59 WGOW E good 
