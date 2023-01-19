@@ -1,0 +1,31 @@
+----------------------------------------------
+LMM, Acc vs Distance, for each role and species
+----------------------------------------------
+diacamma 
+Leader
+slop+-sd = -0.1749712 0.002268391 
+Chisq = 5949.732 Df = 1 P = 0 
+Follower
+slop+-sd = 0.1263842 0.00195178 
+Chisq = 4192.994 Df = 1 P = 0 
+temnothorax 
+Leader
+slop+-sd = -0.4817596 0.002835176 
+Chisq = 28873.57 Df = 1 P = 0 
+Follower
+slop+-sd = 0.1970313 0.002120001 
+Chisq = 8637.709 Df = 1 P = 0 
+coptotermes 
+Leader
+slop+-sd = -0.3324915 0.003931412 
+Chisq = 7152.601 Df = 1 P = 0 
+Follower
+slop+-sd = 0.20392 0.003778394 
+Chisq = 2912.763 Df = 1 P = 0 
+reticulitermes 
+Leader
+slop+-sd = -0.1470481 0.003106413 
+Chisq = 2240.787 Df = 1 P = 0 
+Follower
+slop+-sd = 0.1635464 0.003429336 
+Chisq = 2274.375 Df = 1 P = 0 

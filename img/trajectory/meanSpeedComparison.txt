@@ -1,0 +1,16 @@
+----------------------------------------------
+Paired t-test for mean speed during tandem run
+----------------------------------------------
+Note that P > 0.05 in Shapiro test for each
+diacamma 
+t = 15.35255 df = 14 p = 3.741219e-10 
+estimate = 0.01308672 
+temnothorax 
+t = -4.11761 df = 19 p = 0.0005857166 
+estimate = -0.007776847 
+coptotermes 
+t = 4.022484 df = 16 p = 0.0009843878 
+estimate = 0.009489172 
+reticulitermes 
+t = 6.045861 df = 19 p = 8.14737e-06 
+estimate = 0.01141519 

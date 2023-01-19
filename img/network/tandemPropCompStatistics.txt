@@ -1,0 +1,21 @@
+----------------------------------------------
+Tests using GLMM with binomial error
+Response variable: involved or not for each worker
+Explanatory variable: species
+Random effect: emigration event
+----------------------------------------------
+diacamma_indicum (tandem)      vs diacamma_sp (tandem) 
+    Leader  , P: 0.3612 Chisq: 0.8336 
+    Follower, P: 0.304 Chisq: 1.0564 
+temnothorax_rugatulus (tandem)       vs diacamma_sp (tandem) 
+    Leader  , P: 1e-04 Chisq: 15.9916 
+    Follower, P: 0 Chisq: 64.4147 
+temnothorax_rugatulus (transport) vs diacamma_sp (tandem) 
+    Leader  , P: 0.1831 Chisq: 1.7722 
+    Follower, P: 0.9292 Chisq: 0.0079 
+temnothorax_rugatulus (tandem)       vs diacamma_indicum (tandem) 
+    Leader  , P: 2e-04 Chisq: 14.1508 
+    Follower, P: 0 Chisq: 177.1317 
+temnothorax_rugatulus (transport) vs diacamma_indicum (tandem) 
+    Leader  , P: 0.004 Chisq: 8.2738 
+    Follower, P: 0.2153 Chisq: 1.5353 

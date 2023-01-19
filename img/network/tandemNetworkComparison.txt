@@ -1,0 +1,24 @@
+----------------------------------------------
+Tests using LMM
+Response variable: Network density
+Explanatory variable: Recruitment types (Dia tandem vs Temno tandem vs Temno carrying)
+Random effect: Colony nested within species
+----------------------------------------------
+Chisq = 68.49013 ; df = 2 ; P = 1.341397e-15 
+ 
+	 Simultaneous Tests for General Linear Hypotheses 
+ 
+Multiple Comparisons of Means: Tukey Contrasts 
+ 
+ 
+Fit: lmer(formula = Density ~ Genus + (1 | Species/Colony), data = dfNetStat) 
+ 
+Linear Hypotheses: 
+                                        Estimate Std. Error z value Pr(>|z|)     
+temnothorax - diacamma == 0              0.07765    0.03165   2.454   0.0336 *   
+temnothorax_carrying - diacamma == 0    -0.03205    0.03354  -0.955   0.5873     
+temnothorax_carrying - temnothorax == 0 -0.10970    0.01361  -8.060   <1e-04 *** 
+--- 
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+(Adjusted p values reported -- single-step method) 
+ 

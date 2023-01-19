@@ -1,0 +1,134 @@
+----------------------------------------------
+Tests using LMM
+Response variable: Proportion of motifs
+Explanatory variable: Recruitment types (Dia tandem vs Temno tandem vs Temno carrying)
+Random effect: Colony nested within species
+----------------------------------------------
+Motif id = 4 (A -> B -> C)
+Chisq = 9.670993 ; df = 2 ; P = 0.007942744 
+ 
+	 Simultaneous Tests for General Linear Hypotheses 
+ 
+Multiple Comparisons of Means: Tukey Contrasts 
+ 
+ 
+Fit: lmer(formula = motif.prop ~ Genus + (1 | Species/Colony), data = df.plot[df.plot$motif.id ==  
+    4, ]) 
+ 
+Linear Hypotheses: 
+                                        Estimate Std. Error z value Pr(>|z|)    
+temnothorax - diacamma == 0              0.13451    0.04551   2.956  0.00859 ** 
+temnothorax_carrying - diacamma == 0     0.04711    0.05437   0.866  0.65962    
+temnothorax_carrying - temnothorax == 0 -0.08740    0.04731  -1.847  0.15295    
+--- 
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+(Adjusted p values reported -- single-step method) 
+ 
+Motif id = 6 (B <- A -> C)
+Chisq = 25.28325 ; df = 2 ; P = 3.234542e-06 
+ 
+	 Simultaneous Tests for General Linear Hypotheses 
+ 
+Multiple Comparisons of Means: Tukey Contrasts 
+ 
+ 
+Fit: lmer(formula = motif.prop ~ Genus + (1 | Species/Colony), data = df.plot[df.plot$motif.id ==  
+    6, ]) 
+ 
+Linear Hypotheses: 
+                                        Estimate Std. Error z value Pr(>|z|)     
+temnothorax - diacamma == 0             -0.31935    0.08352  -3.824 0.000362 *** 
+temnothorax_carrying - diacamma == 0    -0.02537    0.09430  -0.269 0.960359     
+temnothorax_carrying - temnothorax == 0  0.29398    0.07080   4.153 0.000101 *** 
+--- 
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+(Adjusted p values reported -- single-step method) 
+ 
+RStudioGD 
+        2 
+Called from: eval(fit$call$data)
+Cox mixed-effects model fit by maximum likelihood
+  Data: df.tandem.duration
+  events, n = 1604, 1676
+  Iterations= 21 151 
+                    NULL Integrated    Fitted
+Log-likelihood -10453.69  -10048.49 -10014.23
+
+                   Chisq    df p    AIC    BIC
+Integrated loglik 810.40  4.00 0 802.40 780.87
+ Penalized loglik 878.92 20.59 0 837.75 726.98
+
+Model:  Surv(Duration * 0.2/60, Censor) ~ Species + (1 | ID) 
+Fixed coefficients
+                          coef exp(coef)  se(coef)    z       p
+Speciestemnothorax    4.283538 72.496454 0.4410826 9.71 0.0e+00
+Speciescoptotermes    1.190080  3.287345 0.4548450 2.62 8.9e-03
+Speciesreticulitermes 1.796413  6.027989 0.4356190 4.12 3.7e-05
+
+Random effects
+ Group Variable  Std Dev   Variance 
+ ID    Intercept 0.4400290 0.1936256
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: coxme(formula = Surv(Duration * 0.2/60, Censor) ~ Species + (1 | 
+    ID), data = df.tandem.duration)
+
+Linear Hypotheses:
+                                  Estimate Std. Error z value Pr(>|z|)    
+temnothorax - diacamma == 0         4.2835     0.4411   9.711   <0.001 ***
+coptotermes - diacamma == 0         1.1901     0.4548   2.616   0.0385 *  
+reticulitermes - diacamma == 0      1.7964     0.4356   4.124   <0.001 ***
+coptotermes - temnothorax == 0     -3.0935     0.2413 -12.818   <0.001 ***
+reticulitermes - temnothorax == 0  -2.4871     0.1582 -15.719   <0.001 ***
+reticulitermes - coptotermes == 0   0.6063     0.2377   2.551   0.0462 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- single-step method)
+
+Cox mixed-effects model fit by maximum likelihood
+  Data: df.tandem.duration
+  events, n = 1604, 1676
+  Iterations= 21 151 
+                    NULL Integrated    Fitted
+Log-likelihood -10453.69  -10048.49 -10014.23
+
+                   Chisq    df p    AIC    BIC
+Integrated loglik 810.40  4.00 0 802.40 780.87
+ Penalized loglik 878.92 20.59 0 837.75 726.98
+
+Model:  Surv(Duration * 0.2/60, Censor) ~ Species + (1 | ID) 
+Fixed coefficients
+                          coef exp(coef)  se(coef)    z       p
+Speciestemnothorax    4.283538 72.496454 0.4410826 9.71 0.0e+00
+Speciescoptotermes    1.190080  3.287345 0.4548450 2.62 8.9e-03
+Speciesreticulitermes 1.796413  6.027989 0.4356190 4.12 3.7e-05
+
+Random effects
+ Group Variable  Std Dev   Variance 
+ ID    Intercept 0.4400290 0.1936256
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: coxme(formula = Surv(Duration * 0.2/60, Censor) ~ Species + (1 | 
+    ID), data = df.tandem.duration)
+
+Linear Hypotheses:
+                                  Estimate Std. Error z value Pr(>|z|)    
+temnothorax - diacamma == 0         4.2835     0.4411   9.711   <0.001 ***
+coptotermes - diacamma == 0         1.1901     0.4548   2.616   0.0385 *  
+reticulitermes - diacamma == 0      1.7964     0.4356   4.124   <0.001 ***
+coptotermes - temnothorax == 0     -3.0935     0.2413 -12.818   <0.001 ***
+reticulitermes - temnothorax == 0  -2.4871     0.1582 -15.719   <0.001 ***
+reticulitermes - coptotermes == 0   0.6063     0.2377   2.551   0.0462 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- single-step method)
+
+[1] "img/trajectory/"

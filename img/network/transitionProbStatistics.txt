@@ -1,0 +1,38 @@
+----------------------------------------------
+Tests using Fisher's test
+Comparing the probability to be recuruited
+----------------------------------------------
+temno  tandem    vs temno   transport
+P:  9.225385e-09 
+temno  tandem    vs dia ind tandem
+P:  4.314706e-08 
+temno  tandem    vs dia sp  tandem
+P:  1.005044e-09 
+temno  transport vs dia ind tandem 
+P:  0.2946708 
+temno  transport vs dia sp  tandem 
+P:  0.1990286 
+dia sp tandem    vs dia ind  tandem 
+P:  0.03327358 
+
+----------------------------------
+Fig.S2
+tem alb tandem    vs tem rug  tandem 
+P:  3.054475e-08 
+tem alb tandem    vs tem nyl  tandem 
+P:  7.257569e-07 
+tem alb tandem    vs dia ind  tandem 
+P:  0.2078798 
+tem alb tandem    vs dia sp   tandem 
+P:  0.4419057 
+tem alb tandem    vs tem rug  transport 
+P:  0.6795411 
+
+tem nyl tandem    vs tem rug  tandem 
+P:  0.005972414 
+tem nyl tandem    vs dia ind  tandem 
+P:  1.840787e-09 
+tem nyl tandem    vs dia sp   tandem 
+P:  8.877213e-09 
+tem nyl tandem    vs tem rug  transport 
+P:  3.565859e-09 
