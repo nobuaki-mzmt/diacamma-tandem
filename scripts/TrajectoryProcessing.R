@@ -15,26 +15,22 @@
 #---------------------------------------------------------------------------#
 
 rm(list = ls())
+preprocessAll()
 
 #---------------------------------------------------------------------------#
 {
-  ## packages
   library(stringr)
   library(data.table)
   library(rinform) # transfer entropy
   
   ## constants
-  {
-    fps    <- 29.97
-    NMIN <- 15
-    NSTEPS <- 45 # max interval for ss
-    datasets = c("diacamma", "temnothorax", 
-                 "coptotermes", "reticulitermes")
-    bodylength = c(10.54032, 2.34, 8.89, 5.5) # mm
-    names(bodylength) = datasets
-  }
-  
-  preprocessAll()
+  fps    <- 29.97
+  NMIN <- 15
+  NSTEPS <- 45 # max interval for ss
+  datasets = c("diacamma", "temnothorax", 
+               "coptotermes", "reticulitermes")
+  bodylength = c(10.54032, 2.34, 8.89, 5.5) # mm
+  names(bodylength) = datasets
 }
 #---------------------------------------------------------------------------#
 
@@ -71,7 +67,7 @@ convert.rda.diacamma <- function(){
     dataname <- str_split(dataname, "_extract", simplify = T)[,1]
     dataname <- str_remove(dataname, "_eve")
     dataname <- paste0( str_sub(dataname, 1, 2), formatC(as.numeric(str_sub(dataname, 3, 4)), width=2, flag="0") )
-    load("data/trajectory/raw/d_tracking_failed.rda")
+    d.tracking.failed <- data.frame(fread("data/trajectory/Tracking_failed.csv", header=T))[,1:4]
   }
   
   ## scaling for Diacamma experiments

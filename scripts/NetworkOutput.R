@@ -521,7 +521,7 @@ resultMotif <- function(){
   df.plot$Genus <- factor(df.plot$Genus, levels = c("diacamma", "temnothorax", "temnothorax_carrying"))
   dodge_width = 0.75
   ggplot(df.plot, aes(x=as.factor(motif.id), y=motif.prop, fill=Genus))+
-    geom_boxplot(alpha = 0.4, outlier = NA)+
+    geom_boxplot(alpha = 0.4)+
     geom_dotplot(binaxis='y', stackdir='center',
                  dotsize=2, binwidth=0.01, position=position_dodge(dodge_width)) +
     scale_fill_manual(values = viridis(3)[c(3,1,2)]) +

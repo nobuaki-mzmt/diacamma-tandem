@@ -25,7 +25,7 @@
 ### 3. Make a video with focused tandem using Python
 - Place original video files at [VideoPrepPython/videos](./tracking/test/VideoPrepPython/videos) (multiple files can be processed at the same time)
 - Place csv files at [VideoPrepPython/coordinate](./tracking/test/VideoPrepPython/coordinate)
-- Follow the python program in [VideoPrepPython/coordinate](./tracking/test/VideoPrepPython/coordinate)
+- Run the python program [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py)
 - The results will be found as VideoPrepPython/videos/*_extract.mp4
 
 ### 4. Use UMATracker

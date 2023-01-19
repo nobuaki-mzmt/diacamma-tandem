@@ -15,20 +15,21 @@
 # The processed data will be used in NetworkOutputs.R for displaying results.
 #---------------------------------------------------------------------------#
 
+#---------------------------------------------------------------------------#
 rm(list = ls())
+library(igraph)
+process_all()
+#---------------------------------------------------------------------------#
+
 
 #---------------------------------------------------------------------------#
-{
-  ## packages  
-  library(igraph)
-}
-
-{
+process_all <- function(){
   extractNetworks()
   TandemAggreagte(OnlyOldGoodMovement = F)
   RoleTransition()
   networkStatistics()
 }
+#---------------------------------------------------------------------------#
 
 #---------------------------------------------------------------------------#
 # This function combine all extractNetworks functions and make one dataframe
