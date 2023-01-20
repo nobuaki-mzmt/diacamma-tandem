@@ -14,7 +14,7 @@ Nobuaki Mizumoto<sup>1</sup>, Yasunari Tanaka<sup>2</sup>, Gabriele Valentini<su
 ## Usage notes
 ### Tracking
 Trajectories of tandem running pairs in D. cf indicum were obtained by combining two different tracking softwares, [UMATracker](https://ymnk13.github.io/UMATracker/) and [FastTrack](https://www.fasttrack.sh/docs/interactiveTracking/), with python coding [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py) and R coding [TrackingConverter.R](./tracking/test/TrackingConverter.R).
-Produced files for coordinates were storaged in [Diacamma-csv](./data/trajectory/raw/Diacamma-csv).
+Produced files for coordinates were stored in [Diacamma-csv](./data/trajectory/raw/Diacamma-csv).
 
 ### Data analysis
 #### Trajectory analysis
@@ -57,7 +57,7 @@ See the Method and Supplementary Materials for more details.
 * [img](./img)
 * [tracking](./tracking)
   * [TrackingConverter.R](./tracking/TrackingConverter.R) - Scripts to convert the results of FastTrack into UMATracker
-  * [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py) - python scripts to creat masked videos
+  * [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py) - python scripts to create masked videos
   * [test](./tracking/test) - example of tracking
     * [TandemTrackingMethods.md](./tracking/test/TandemTrackingMethods.md) - a notebook for tracking
     * 1. [FastTrack](./tracking/test/FastTrack)
