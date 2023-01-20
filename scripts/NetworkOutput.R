@@ -10,10 +10,10 @@
 #---------------------------------------------------------------------------#
 
 rm(list = ls())
+output_all()
 
 #---------------------------------------------------------------------------#
 {
-  ## packages
   library(MASS)
   
   library(igraph)
@@ -30,13 +30,13 @@ rm(list = ls())
   library(stringr)
   
   library(Rmisc)
-}
-
-{
+  
   pdfHeight  <- 7 
   pdfWidth   <- 10
   fontSize3C <- 28
-  
+}
+
+output_all = function(){
   plotNetworks()
   plotSpecificNetworks()
   tableStateTransition()
@@ -326,7 +326,7 @@ resultPropTandem <- function(){
     geom_boxplot(width = .5, position=position_dodge(dodge_width)) +
     geom_dotplot(binaxis='y', stackdir='center',
                  dotsize=1, binwidth=0.01, position=position_dodge(dodge_width)) +
-    scale_fill_viridis(discrete = T, option = "magma", begin=0.5)+
+    scale_fill_viridis(discrete = T, option = "magma", begin=0)+
     labs(x = "", y = "Proportion of involved individuals") +
     lims(y = c(0,1)) +
     theme(legend.position  = c(0.65 , 0.85)) +

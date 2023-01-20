@@ -10,6 +10,7 @@
 #---------------------------------------------------------------------------#
 
 rm(list = ls())
+output.all()
 
 #---------------------------------------------------------------------------#
 {
@@ -27,21 +28,17 @@ rm(list = ls())
   require(coxme)
   
   ## constants
-  {
-    FPS = 30
-    NMIN = 15
-    
-    pdfHeight  <- 7 
-    pdfWidth   <- 10
-    fontSize3C <- 28
-    
-    Datasets = datasets = c("diacamma", "temnothorax", "coptotermes", "reticulitermes")
-    
-    bodylength = c(10.54032, 2.34, 8.89, 5.5) # mm
-    names(bodylength) = Datasets
-  }
+  FPS = 30
+  NMIN = 15
   
-  output.all()
+  pdfHeight  <- 7 
+  pdfWidth   <- 10
+  fontSize3C <- 28
+  
+  Datasets = datasets = c("diacamma", "temnothorax", "coptotermes", "reticulitermes")
+  
+  bodylength = c(10.54032, 2.34, 8.89, 5.5) # mm
+  names(bodylength) = Datasets
 }
 #---------------------------------------------------------------------------#
 
