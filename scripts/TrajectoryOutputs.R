@@ -450,7 +450,6 @@ tandemOutput <- function(){
   
   ## Tandem duration
   {
-    theme_set(theme_bw())
     ggplot(df.ind.speed[df.ind.speed$Role=="Leader" & 
                           df.ind.speed$Type=="Separation",],
            aes(x = Species, y=Duration/5, fill=Species)) + 
@@ -466,7 +465,24 @@ tandemOutput <- function(){
     fname <- paste0(odir,"SeparationDuration.pdf")
     ggsave(fname, height = pdfHeight, width = pdfWidth)
     
-    theme_set(theme_bw())
+    # interrupted duration only Temno and Dia
+    ggplot(subset(df.ind.speed, Role=="Leader" & Type == "Separation" &
+                    (Species=="diacamma" | Species=="temnothorax") ),
+           aes(x = Species, y=Duration/5/900, fill=Species)) + 
+      geom_boxplot(alpha=0.2) + 
+      geom_dotplot(binaxis = "y", stackdir = "center", dotsize=0.75, binwidth = 0.005, alpha=1) + 
+      scale_fill_viridis(discrete = T, begin=1, end=0) +
+      coord_cartesian(ylim=c(0,0.25)) +
+      labs(x = "", y = "Separation duration (sec)") + 
+      theme_classic()+
+      theme(legend.position  = "none") +
+      theme(legend.title = element_blank()) +
+      theme(legend.text = element_text(size = 14)) +
+      theme(text = element_text(size = 14))
+    fname <- paste0(odir,"SeparationDuration_Ant.pdf")
+    ggsave(fname, height = 2, width = 2)
+    
+    
     ggsurvplot(
       fit = survfit(Surv(Duration*0.2/60, Censor) ~ Species, 
                     type = "kaplan-meier", 
@@ -478,7 +494,7 @@ tandemOutput <- function(){
       legend = c(0.8,0.9),
     )
     fname <- paste0(odir,"TandemDuration.pdf")
-    ggsave(fname, height = pdfHeight/2, width = pdfWidth/2)
+    ggsave(fname, height = 2, width = 3)
     
     m <- coxme(Surv(Duration*0.2/60, Censor) ~ Species + (1|ID), data = df.tandem.duration)
     summary(m)

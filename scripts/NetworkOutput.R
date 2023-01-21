@@ -419,11 +419,10 @@ resultDegreeDstr <- function(){
   idir  <- "data/network/processed/" 
   odir  <- "img/network/"
   pdfHeight = 3
-  pdfWidth = 4
+  pdfWidth = 4.5
   
   fname = paste0(idir,"networkStat.RData")
   load(fname)
-  
   
   dfdegree$Genus <- dfdegree$Species
   dfdegree$Genus[str_detect(dfdegree$Genus, "diacamma")] <- "diacamma"
@@ -506,8 +505,8 @@ resultDegreeDstr <- function(){
 resultMotif <- function(){
   idir  <- "data/network/processed/" 
   odir  <- "img/network/"
-  pdfHeight = 4
-  pdfWidth = 4
+  pdfHeight = 2.5
+  pdfWidth = 8
   
   fname = paste0(idir,"networkStat.RData")
   load(fname)
@@ -527,13 +526,13 @@ resultMotif <- function(){
     scale_fill_manual(values = viridis(3)[c(3,1,2)]) +
     coord_cartesian(ylim = c(0, 1)) +
     labs(x = "Motif", y = "Proportion of subgraphs") + 
-    theme_bw()+
+    theme_classic()+
     theme(legend.position  = c(0.2 , 0.85)) +
     theme(legend.title = element_blank()) +
     theme(legend.text = element_text(size = fontSize3C/2)) +
     theme(text = element_text(size = fontSize3C/2))
   pdfName <- paste(odir, "/motif.pdf", sep = "")  
-  ggsave(pdfName, height = 2, width = 2*sqrt(2))
+  ggsave(pdfName, height = pdfHeight, width = pdfWidth)
   
   plot(graph.isocreate(3,2)) 
   plot(graph.isocreate(3,4)) 

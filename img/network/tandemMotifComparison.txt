@@ -17,9 +17,9 @@ Fit: lmer(formula = motif.prop ~ Genus + (1 | Species/Colony), data = df.plot[df
  
 Linear Hypotheses: 
                                         Estimate Std. Error z value Pr(>|z|)    
-temnothorax - diacamma == 0              0.13451    0.04551   2.956  0.00859 ** 
-temnothorax_carrying - diacamma == 0     0.04711    0.05437   0.866  0.65962    
-temnothorax_carrying - temnothorax == 0 -0.08740    0.04731  -1.847  0.15295    
+temnothorax - diacamma == 0              0.13451    0.04551   2.956  0.00881 ** 
+temnothorax_carrying - diacamma == 0     0.04711    0.05437   0.866  0.65963    
+temnothorax_carrying - temnothorax == 0 -0.08740    0.04731  -1.847  0.15297    
 --- 
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
 (Adjusted p values reported -- single-step method) 
@@ -37,98 +37,178 @@ Fit: lmer(formula = motif.prop ~ Genus + (1 | Species/Colony), data = df.plot[df
  
 Linear Hypotheses: 
                                         Estimate Std. Error z value Pr(>|z|)     
-temnothorax - diacamma == 0             -0.31935    0.08352  -3.824 0.000362 *** 
-temnothorax_carrying - diacamma == 0    -0.02537    0.09430  -0.269 0.960359     
-temnothorax_carrying - temnothorax == 0  0.29398    0.07080   4.153 0.000101 *** 
+temnothorax - diacamma == 0             -0.31935    0.08352  -3.824 0.000374 *** 
+temnothorax_carrying - diacamma == 0    -0.02537    0.09430  -0.269 0.960360     
+temnothorax_carrying - temnothorax == 0  0.29398    0.07080   4.153 0.000109 *** 
 --- 
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
 (Adjusted p values reported -- single-step method) 
  
-RStudioGD 
-        2 
-Called from: eval(fit$call$data)
-Cox mixed-effects model fit by maximum likelihood
-  Data: df.tandem.duration
-  events, n = 1604, 1676
-  Iterations= 21 151 
-                    NULL Integrated    Fitted
-Log-likelihood -10453.69  -10048.49 -10014.23
-
-                   Chisq    df p    AIC    BIC
-Integrated loglik 810.40  4.00 0 802.40 780.87
- Penalized loglik 878.92 20.59 0 837.75 726.98
-
-Model:  Surv(Duration * 0.2/60, Censor) ~ Species + (1 | ID) 
-Fixed coefficients
-                          coef exp(coef)  se(coef)    z       p
-Speciestemnothorax    4.283538 72.496454 0.4410826 9.71 0.0e+00
-Speciescoptotermes    1.190080  3.287345 0.4548450 2.62 8.9e-03
-Speciesreticulitermes 1.796413  6.027989 0.4356190 4.12 3.7e-05
-
-Random effects
- Group Variable  Std Dev   Variance 
- ID    Intercept 0.4400290 0.1936256
-
-	 Simultaneous Tests for General Linear Hypotheses
-
-Multiple Comparisons of Means: Tukey Contrasts
-
-
-Fit: coxme(formula = Surv(Duration * 0.2/60, Censor) ~ Species + (1 | 
-    ID), data = df.tandem.duration)
-
-Linear Hypotheses:
-                                  Estimate Std. Error z value Pr(>|z|)    
-temnothorax - diacamma == 0         4.2835     0.4411   9.711   <0.001 ***
-coptotermes - diacamma == 0         1.1901     0.4548   2.616   0.0385 *  
-reticulitermes - diacamma == 0      1.7964     0.4356   4.124   <0.001 ***
-coptotermes - temnothorax == 0     -3.0935     0.2413 -12.818   <0.001 ***
-reticulitermes - temnothorax == 0  -2.4871     0.1582 -15.719   <0.001 ***
-reticulitermes - coptotermes == 0   0.6063     0.2377   2.551   0.0462 *  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-(Adjusted p values reported -- single-step method)
-
-Cox mixed-effects model fit by maximum likelihood
-  Data: df.tandem.duration
-  events, n = 1604, 1676
-  Iterations= 21 151 
-                    NULL Integrated    Fitted
-Log-likelihood -10453.69  -10048.49 -10014.23
-
-                   Chisq    df p    AIC    BIC
-Integrated loglik 810.40  4.00 0 802.40 780.87
- Penalized loglik 878.92 20.59 0 837.75 726.98
-
-Model:  Surv(Duration * 0.2/60, Censor) ~ Species + (1 | ID) 
-Fixed coefficients
-                          coef exp(coef)  se(coef)    z       p
-Speciestemnothorax    4.283538 72.496454 0.4410826 9.71 0.0e+00
-Speciescoptotermes    1.190080  3.287345 0.4548450 2.62 8.9e-03
-Speciesreticulitermes 1.796413  6.027989 0.4356190 4.12 3.7e-05
-
-Random effects
- Group Variable  Std Dev   Variance 
- ID    Intercept 0.4400290 0.1936256
-
-	 Simultaneous Tests for General Linear Hypotheses
-
-Multiple Comparisons of Means: Tukey Contrasts
-
-
-Fit: coxme(formula = Surv(Duration * 0.2/60, Censor) ~ Species + (1 | 
-    ID), data = df.tandem.duration)
-
-Linear Hypotheses:
-                                  Estimate Std. Error z value Pr(>|z|)    
-temnothorax - diacamma == 0         4.2835     0.4411   9.711   <0.001 ***
-coptotermes - diacamma == 0         1.1901     0.4548   2.616   0.0385 *  
-reticulitermes - diacamma == 0      1.7964     0.4356   4.124   <0.001 ***
-coptotermes - temnothorax == 0     -3.0935     0.2413 -12.818   <0.001 ***
-reticulitermes - temnothorax == 0  -2.4871     0.1582 -15.719   <0.001 ***
-reticulitermes - coptotermes == 0   0.6063     0.2377   2.551   0.0462 *  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-(Adjusted p values reported -- single-step method)
-
-[1] "img/trajectory/"
+                          ID     Role       Type      Speed Duration     Species
+KC09-9                KC09-9 Follower     Tandem 0.27370258     4468    diacamma
+KC10-10              KC10-10 Follower     Tandem 0.25733838     4496    diacamma
+KH01-11              KH01-11 Follower     Tandem 0.22162881     4496    diacamma
+KH02-12              KH02-12 Follower     Tandem 0.27087884     4485    diacamma
+KH03-13              KH03-13 Follower     Tandem 0.23556925     4400    diacamma
+KH04-14              KH04-14 Follower     Tandem 0.24182983     4283    diacamma
+KH07-17              KH07-17 Follower     Tandem 0.22517470     4476    diacamma
+KH09-19              KH09-19 Follower     Tandem 0.28292013     4483    diacamma
+KH10-20              KH10-20 Follower     Tandem 0.31502754     4454    diacamma
+KN01-21              KN01-21 Follower     Tandem 0.28269545     4023    diacamma
+KN04-31              KN04-31 Follower     Tandem 0.30043727     3965    diacamma
+KN06-33              KN06-33 Follower     Tandem 0.32906718     4163    diacamma
+KN07-34              KN07-34 Follower     Tandem 0.29115186     4005    diacamma
+KN16-28              KN16-28 Follower     Tandem 0.31813961     4293    diacamma
+NA03-40              NA03-40 Follower     Tandem 0.36634691     4496    diacamma
+KC09-91               KC09-9   Leader     Tandem 0.28479117     4468    diacamma
+KC10-101             KC10-10   Leader     Tandem 0.27225409     4496    diacamma
+KH01-111             KH01-11   Leader     Tandem 0.23846283     4496    diacamma
+KH02-121             KH02-12   Leader     Tandem 0.28920718     4485    diacamma
+KH03-131             KH03-13   Leader     Tandem 0.24866145     4400    diacamma
+KH04-141             KH04-14   Leader     Tandem 0.25565667     4283    diacamma
+KH07-171             KH07-17   Leader     Tandem 0.23969181     4476    diacamma
+KH09-191             KH09-19   Leader     Tandem 0.29584428     4483    diacamma
+KH10-201             KH10-20   Leader     Tandem 0.33339100     4454    diacamma
+KN01-211             KN01-21   Leader     Tandem 0.29680339     4023    diacamma
+KN04-311             KN04-31   Leader     Tandem 0.30975107     3965    diacamma
+KN06-331             KN06-33   Leader     Tandem 0.34095467     4163    diacamma
+KN07-341             KN07-34   Leader     Tandem 0.29878187     4005    diacamma
+KN16-281             KN16-28   Leader     Tandem 0.32934440     4293    diacamma
+NA03-401             NA03-40   Leader     Tandem 0.37461328     4496    diacamma
+KC09-92               KC09-9 Follower Separation 0.10596612       17    diacamma
+KC10-102             KC10-10 Follower Separation         NA        0    diacamma
+KH01-112             KH01-11 Follower Separation         NA        0    diacamma
+KH02-122             KH02-12 Follower Separation 0.04497217        1    diacamma
+KH03-132             KH03-13 Follower Separation         NA        0    diacamma
+KH04-142             KH04-14 Follower Separation         NA        0    diacamma
+KH07-172             KH07-17 Follower Separation 0.08846592        7    diacamma
+KH09-192             KH09-19 Follower Separation 0.02222625        2    diacamma
+KH10-202             KH10-20 Follower Separation         NA        0    diacamma
+KN01-212             KN01-21 Follower Separation         NA        0    diacamma
+KN04-312             KN04-31 Follower Separation         NA        0    diacamma
+KN06-332             KN06-33 Follower Separation         NA        0    diacamma
+KN07-342             KN07-34 Follower Separation         NA        0    diacamma
+KN16-282             KN16-28 Follower Separation         NA        0    diacamma
+NA03-402             NA03-40 Follower Separation         NA        0    diacamma
+KC09-93               KC09-9   Leader Separation 0.03509241       17    diacamma
+KC10-103             KC10-10   Leader Separation         NA        0    diacamma
+KH01-113             KH01-11   Leader Separation         NA        0    diacamma
+KH02-123             KH02-12   Leader Separation 0.19415175        1    diacamma
+KH03-133             KH03-13   Leader Separation         NA        0    diacamma
+KH04-143             KH04-14   Leader Separation         NA        0    diacamma
+KH07-173             KH07-17   Leader Separation 0.14464189        7    diacamma
+KH09-193             KH09-19   Leader Separation 0.17533555        2    diacamma
+KH10-203             KH10-20   Leader Separation         NA        0    diacamma
+KN01-213             KN01-21   Leader Separation         NA        0    diacamma
+KN04-313             KN04-31   Leader Separation         NA        0    diacamma
+KN06-333             KN06-33   Leader Separation         NA        0    diacamma
+KN07-343             KN07-34   Leader Separation         NA        0    diacamma
+KN16-283             KN16-28   Leader Separation         NA        0    diacamma
+NA03-403             NA03-40   Leader Separation         NA        0    diacamma
+H14T001R002      H14T001R002 Follower     Tandem 0.31377123     3596 temnothorax
+H14T001R005      H14T001R005 Follower     Tandem 0.27699929     3859 temnothorax
+H14T001R017      H14T001R017 Follower     Tandem 0.32197333     4075 temnothorax
+H14T001R024      H14T001R024 Follower     Tandem 0.24125357     3907 temnothorax
+H16T001R002      H16T001R002 Follower     Tandem 0.30700020     3912 temnothorax
+H16T001R003      H16T001R003 Follower     Tandem 0.30854914     4298 temnothorax
+H1T001R005        H1T001R005 Follower     Tandem 0.28592144     4029 temnothorax
+H1T001R007        H1T001R007 Follower     Tandem 0.21755859     4099 temnothorax
+H1T001R010        H1T001R010 Follower     Tandem 0.28604390     3918 temnothorax
+H1T001R012        H1T001R012 Follower     Tandem 0.23896886     4045 temnothorax
+H31T001R001      H31T001R001 Follower     Tandem 0.27581753     3860 temnothorax
+H31T001R002      H31T001R002 Follower     Tandem 0.27653755     3878 temnothorax
+H31T001R003      H31T001R003 Follower     Tandem 0.25806025     4094 temnothorax
+H31T001R008      H31T001R008 Follower     Tandem 0.19592497     4063 temnothorax
+H31T001R015      H31T001R015 Follower     Tandem 0.23783009     4376 temnothorax
+H31T001R017      H31T001R017 Follower     Tandem 0.25663616     4439 temnothorax
+H36T001R005      H36T001R005 Follower     Tandem 0.26746572     3667 temnothorax
+H36T001R011      H36T001R011 Follower     Tandem 0.30428941     3924 temnothorax
+H36T001R013      H36T001R013 Follower     Tandem 0.22059760     4104 temnothorax
+H9T001R003        H9T001R003 Follower     Tandem 0.20175198     3687 temnothorax
+H14T001R0021     H14T001R002   Leader     Tandem 0.30244854     3596 temnothorax
+H14T001R0051     H14T001R005   Leader     Tandem 0.26946507     3859 temnothorax
+H14T001R0171     H14T001R017   Leader     Tandem 0.30247327     4075 temnothorax
+H14T001R0241     H14T001R024   Leader     Tandem 0.21853400     3907 temnothorax
+H16T001R0021     H16T001R002   Leader     Tandem 0.29351649     3912 temnothorax
+H16T001R0031     H16T001R003   Leader     Tandem 0.29887235     4298 temnothorax
+H1T001R0051       H1T001R005   Leader     Tandem 0.27979511     4029 temnothorax
+H1T001R0071       H1T001R007   Leader     Tandem 0.22283468     4099 temnothorax
+H1T001R0101       H1T001R010   Leader     Tandem 0.26656828     3918 temnothorax
+H1T001R0121       H1T001R012   Leader     Tandem 0.23860336     4045 temnothorax
+H31T001R0011     H31T001R001   Leader     Tandem 0.26203081     3860 temnothorax
+H31T001R0021     H31T001R002   Leader     Tandem 0.27261003     3878 temnothorax
+H31T001R0031     H31T001R003   Leader     Tandem 0.26279299     4094 temnothorax
+H31T001R0081     H31T001R008   Leader     Tandem 0.18039603     4063 temnothorax
+H31T001R0151     H31T001R015   Leader     Tandem 0.24363813     4376 temnothorax
+H31T001R0171     H31T001R017   Leader     Tandem 0.24569329     4439 temnothorax
+H36T001R0051     H36T001R005   Leader     Tandem 0.26479340     3667 temnothorax
+H36T001R0111     H36T001R011   Leader     Tandem 0.29587068     3924 temnothorax
+H36T001R0131     H36T001R013   Leader     Tandem 0.21288371     4104 temnothorax
+H9T001R0031       H9T001R003   Leader     Tandem 0.20359363     3687 temnothorax
+H14T001R0022     H14T001R002 Follower Separation 0.35709699      900 temnothorax
+H14T001R0052     H14T001R005 Follower Separation 0.22594863      637 temnothorax
+H14T001R0172     H14T001R017 Follower Separation 0.22908747      421 temnothorax
+H14T001R0242     H14T001R024 Follower Separation 0.29642109      589 temnothorax
+H16T001R0022     H16T001R002 Follower Separation 0.22245854      584 temnothorax
+H16T001R0032     H16T001R003 Follower Separation 0.16414578      198 temnothorax
+H1T001R0052       H1T001R005 Follower Separation 0.19309766      467 temnothorax
+H1T001R0072       H1T001R007 Follower Separation 0.20538438      397 temnothorax
+H1T001R0102       H1T001R010 Follower Separation 0.26173970      578 temnothorax
+H1T001R0122       H1T001R012 Follower Separation 0.12402683      451 temnothorax
+H31T001R0012     H31T001R001 Follower Separation 0.17372896      636 temnothorax
+H31T001R0022     H31T001R002 Follower Separation 0.18158411      618 temnothorax
+H31T001R0032     H31T001R003 Follower Separation 0.15286152      402 temnothorax
+H31T001R0082     H31T001R008 Follower Separation 0.26184597      433 temnothorax
+H31T001R0152     H31T001R015 Follower Separation 0.12008949      120 temnothorax
+H31T001R0172     H31T001R017 Follower Separation 0.12115795       57 temnothorax
+H36T001R0052     H36T001R005 Follower Separation 0.18002964      829 temnothorax
+H36T001R0112     H36T001R011 Follower Separation 0.18054000      572 temnothorax
+H36T001R0132     H36T001R013 Follower Separation 0.11476910      392 temnothorax
+H9T001R0032       H9T001R003 Follower Separation 0.18958543      809 temnothorax
+H14T001R0023     H14T001R002   Leader Separation 0.05918226      900 temnothorax
+H14T001R0053     H14T001R005   Leader Separation 0.10629294      637 temnothorax
+H14T001R0173     H14T001R017   Leader Separation 0.18028888      421 temnothorax
+H14T001R0243     H14T001R024   Leader Separation 0.04755178      589 temnothorax
+H16T001R0023     H16T001R002   Leader Separation 0.14531385      584 temnothorax
+H16T001R0033     H16T001R003   Leader Separation 0.07985682      198 temnothorax
+H1T001R0053       H1T001R005   Leader Separation 0.10298622      467 temnothorax
+H1T001R0073       H1T001R007   Leader Separation 0.11722351      397 temnothorax
+H1T001R0103       H1T001R010   Leader Separation 0.08017782      578 temnothorax
+H1T001R0123       H1T001R012   Leader Separation 0.14380797      451 temnothorax
+H31T001R0013     H31T001R001   Leader Separation 0.21386346      636 temnothorax
+H31T001R0023     H31T001R002   Leader Separation 0.21199698      618 temnothorax
+H31T001R0033     H31T001R003   Leader Separation 0.14333829      402 temnothorax
+H31T001R0083     H31T001R008   Leader Separation 0.03952981      433 temnothorax
+H31T001R0153     H31T001R015   Leader Separation 0.10349619      120 temnothorax
+H31T001R0173     H31T001R017   Leader Separation 0.06092872       57 temnothorax
+H36T001R0053     H36T001R005   Leader Separation 0.09387197      829 temnothorax
+H36T001R0113     H36T001R011   Leader Separation 0.11309456      572 temnothorax
+H36T001R0133     H36T001R013   Leader Separation 0.08224542      392 temnothorax
+H9T001R0033       H9T001R003   Leader Separation 0.08506053      809 temnothorax
+172-170627-1    172-170627-1 Follower     Tandem 0.58784071     4496 coptotermes
+172-170627-10  172-170627-10 Follower     Tandem 0.54689111     4496 coptotermes
+172-170627-11  172-170627-11 Follower     Tandem 0.46921127     2867 coptotermes
+172-170627-3    172-170627-3 Follower     Tandem 0.59696410     4496 coptotermes
+172-170627-4    172-170627-4 Follower     Tandem 0.54413455     4496 coptotermes
+172-170627-5    172-170627-5 Follower     Tandem 0.55903810     4486 coptotermes
+172-170627-7    172-170627-7 Follower     Tandem 0.55861407     4415 coptotermes
+172-170627-8    172-170627-8 Follower     Tandem 0.60267527     4261 coptotermes
+172-170701-1    172-170701-1 Follower     Tandem 0.41151584     4451 coptotermes
+172-170701-2    172-170701-2 Follower     Tandem 0.52019241     4496 coptotermes
+172-170703-3    172-170703-3 Follower     Tandem 0.60584985     4496 coptotermes
+172-170703-4    172-170703-4 Follower     Tandem 0.57470599     4496 coptotermes
+172-170703-6    172-170703-6 Follower     Tandem 0.44484750     4496 coptotermes
+173-170629-1    173-170629-1 Follower     Tandem 0.67332055     4486 coptotermes
+173-170630-2    173-170630-2 Follower     Tandem 0.61279017     4432 coptotermes
+173-170630-3    173-170630-3 Follower     Tandem 0.62554164     4496 coptotermes
+173-170630-4    173-170630-4 Follower     Tandem 0.44843830     4485 coptotermes
+172-170627-12   172-170627-1   Leader     Tandem 0.60521838     4496 coptotermes
+172-170627-101 172-170627-10   Leader     Tandem 0.54853700     4496 coptotermes
+172-170627-111 172-170627-11   Leader     Tandem 0.45970610     2867 coptotermes
+172-170627-31   172-170627-3   Leader     Tandem 0.61135324     4496 coptotermes
+172-170627-41   172-170627-4   Leader     Tandem 0.55235995     4496 coptotermes
+172-170627-51   172-170627-5   Leader     Tandem 0.56513943     4486 coptotermes
+172-170627-71   172-170627-7   Leader     Tandem 0.56237123     4415 coptotermes
+172-170627-81   172-170627-8   Leader     Tandem 0.60840679     4261 coptotermes
+172-170701-11   172-170701-1   Leader     Tandem 0.44346689     4451 coptotermes
+ [ reached 'max' / getOption("max.print") -- omitted 122 rows ]
