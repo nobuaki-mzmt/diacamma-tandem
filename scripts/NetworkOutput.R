@@ -424,78 +424,109 @@ resultDegreeDstr <- function(){
   fname = paste0(idir,"networkStat.RData")
   load(fname)
   
-  dfdegree$Genus <- dfdegree$Species
-  dfdegree$Genus[str_detect(dfdegree$Genus, "diacamma")] <- "diacamma"
-  dfdegree$Genus[str_detect(dfdegree$Genus, "temnothorax")] <- "temnothorax"
-  dfdegree$Genus[dfdegree$Type == "transport"] <- "temnothorax_carrying"
-  
-  theme_set(theme_minimal())
-  
-  df.plot <- subset(dfdegree,nNodes>20 & degree<6)
-  sumrepdat <- summarySE(df.plot, measurevar = "prob",
-                         groupvars=c("Direction", "degree", "Genus"))
-  
-  df.plot.plot <- subset(df.plot, Direction == "in")
-  sumrepdat.plot <- subset(sumrepdat, Direction == "in")
-  df.plot.plot$Genus <- factor(df.plot.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
-  sumrepdat.plot$Genus <- factor(sumrepdat.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
-  ggplot(data = df.plot.plot, aes(x=as.factor(degree), y=prob, fill=Genus)) + 
-    geom_point(aes(x = as.numeric(degree)+.95, colour = Genus),
-               position = position_jitter(width = .05), size = .25, shape = 20)+
-    #geom_boxplot(aes(x = as.factor(degree), y = prob, fill = Direction),
-    #             outlier.shape = NA, alpha = .5, width = .1, colour = "black") +
-    geom_line(data = sumrepdat.plot, 
-              aes(x = as.numeric(degree)+1.05, y = prob, 
-                  group = Genus, colour = Genus), linetype = 1)+
-    geom_point(data = sumrepdat.plot, 
-               aes(x = as.numeric(degree)+1.05, y = prob,
-                   group = Genus, colour = Genus), shape = 18) +
-    geom_errorbar(data = sumrepdat.plot, 
-                  aes(x = as.numeric(degree)+1.05, y = prob,
-                      group = Genus, colour = Genus,
-                      ymin = prob-sd, ymax = prob+sd), width = .05)+
-    scale_fill_viridis(discrete = T)+
-    scale_color_viridis(discrete = T) +
-    coord_cartesian(ylim = c(0, 1)) +
-    labs(x = "Degree", y = "Proportion of nodes") +
-    theme_bw()+
-    theme(legend.position  = c(0.75 , 0.85)) +
-    theme(legend.title = element_blank()) +
-    theme(legend.text = element_text(size = fontSize3C/2)) +
-    theme(text = element_text(size = fontSize3C/2))
-  pdfName <- paste(odir, "/indegree.pdf", sep = "")  
-  ggsave(pdfName, height = pdfHeight, width = pdfWidth)
+  # plot distribution
+  {
+    dfdegree$Genus <- dfdegree$Species
+    dfdegree$Genus[str_detect(dfdegree$Genus, "diacamma")] <- "diacamma"
+    dfdegree$Genus[str_detect(dfdegree$Genus, "temnothorax")] <- "temnothorax"
+    dfdegree$Genus[dfdegree$Type == "transport"] <- "temnothorax_carrying"
     
-  df.plot.plot <- subset(df.plot, Direction == "out")
-  sumrepdat.plot <- subset(sumrepdat, Direction == "out")
-  df.plot.plot$Genus <- factor(df.plot.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
-  sumrepdat.plot$Genus <- factor(sumrepdat.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
-  ggplot(data = df.plot.plot, aes(x=as.factor(degree), y=prob, fill=Genus)) + 
-    geom_point(aes(x = as.numeric(degree)+.95, colour = Genus),
-               position = position_jitter(width = .05), size = .25, shape = 20)+
-    #geom_boxplot(aes(x = as.factor(degree), y = prob, fill = Direction),
-    #             outlier.shape = NA, alpha = .5, width = .1, colour = "black") +
-    geom_line(data = sumrepdat.plot, 
-              aes(x = as.numeric(degree)+1.05, y = prob, 
-                  group = Genus, colour = Genus), linetype = 1)+
-    geom_point(data = sumrepdat.plot, 
-               aes(x = as.numeric(degree)+1.05, y = prob,
-                   group = Genus, colour = Genus), shape = 18) +
-    geom_errorbar(data = sumrepdat.plot, 
-                  aes(x = as.numeric(degree)+1.05, y = prob,
-                      group = Genus, colour = Genus,
-                      ymin = prob-sd, ymax = prob+sd), width = .05)+
-    scale_fill_viridis(discrete = T)+
-    scale_color_viridis(discrete = T) +
-    coord_cartesian(ylim = c(0, 1)) +
-    labs(x = "Degree", y = "Proportion of nodes") + 
-    theme_bw()+
-    theme(legend.position  = c(0.75 , 0.85)) +
-    theme(legend.title = element_blank()) +
-    theme(legend.text = element_text(size = fontSize3C/2)) +
-    theme(text = element_text(size = fontSize3C/2))
-  pdfName <- paste(odir, "/outdegree.pdf", sep = "")  
-  ggsave(pdfName, height = pdfHeight, width = pdfWidth)
+    theme_set(theme_minimal())
+    
+    df.plot <- subset(dfdegree,nNodes>20 & degree<6)
+    sumrepdat <- summarySE(df.plot, measurevar = "prob",
+                           groupvars=c("Direction", "degree", "Genus"))
+    
+    df.plot.plot <- subset(df.plot, Direction == "in")
+    sumrepdat.plot <- subset(sumrepdat, Direction == "in")
+    df.plot.plot$Genus <- factor(df.plot.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
+    sumrepdat.plot$Genus <- factor(sumrepdat.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
+    ggplot(data = df.plot.plot, aes(x=as.factor(degree), y=prob, fill=Genus)) + 
+      geom_point(aes(x = as.numeric(degree)+.95, colour = Genus),
+                 position = position_jitter(width = .05), size = .25, shape = 20)+
+      #geom_boxplot(aes(x = as.factor(degree), y = prob, fill = Direction),
+      #             outlier.shape = NA, alpha = .5, width = .1, colour = "black") +
+      geom_line(data = sumrepdat.plot, 
+                aes(x = as.numeric(degree)+1.05, y = prob, 
+                    group = Genus, colour = Genus), linetype = 1)+
+      geom_point(data = sumrepdat.plot, 
+                 aes(x = as.numeric(degree)+1.05, y = prob,
+                     group = Genus, colour = Genus), shape = 18) +
+      geom_errorbar(data = sumrepdat.plot, 
+                    aes(x = as.numeric(degree)+1.05, y = prob,
+                        group = Genus, colour = Genus,
+                        ymin = prob-sd, ymax = prob+sd), width = .05)+
+      scale_fill_viridis(discrete = T)+
+      scale_color_viridis(discrete = T) +
+      coord_cartesian(ylim = c(0, 1)) +
+      labs(x = "Degree", y = "Proportion of nodes") +
+      theme_bw()+
+      theme(legend.position  = c(0.75 , 0.85)) +
+      theme(legend.title = element_blank()) +
+      theme(legend.text = element_text(size = fontSize3C/2)) +
+      theme(text = element_text(size = fontSize3C/2))
+    pdfName <- paste(odir, "/indegree.pdf", sep = "")  
+    ggsave(pdfName, height = pdfHeight, width = pdfWidth)
+      
+    df.plot.plot <- subset(df.plot, Direction == "out")
+    sumrepdat.plot <- subset(sumrepdat, Direction == "out")
+    df.plot.plot$Genus <- factor(df.plot.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
+    sumrepdat.plot$Genus <- factor(sumrepdat.plot$Genus, levels = c("temnothorax", "temnothorax_carrying", "diacamma"))
+    ggplot(data = df.plot.plot, aes(x=as.factor(degree), y=prob, fill=Genus)) + 
+      geom_point(aes(x = as.numeric(degree)+.95, colour = Genus),
+                 position = position_jitter(width = .05), size = .25, shape = 20)+
+      #geom_boxplot(aes(x = as.factor(degree), y = prob, fill = Direction),
+      #             outlier.shape = NA, alpha = .5, width = .1, colour = "black") +
+      geom_line(data = sumrepdat.plot, 
+                aes(x = as.numeric(degree)+1.05, y = prob, 
+                    group = Genus, colour = Genus), linetype = 1)+
+      geom_point(data = sumrepdat.plot, 
+                 aes(x = as.numeric(degree)+1.05, y = prob,
+                     group = Genus, colour = Genus), shape = 18) +
+      geom_errorbar(data = sumrepdat.plot, 
+                    aes(x = as.numeric(degree)+1.05, y = prob,
+                        group = Genus, colour = Genus,
+                        ymin = prob-sd, ymax = prob+sd), width = .05)+
+      scale_fill_viridis(discrete = T)+
+      scale_color_viridis(discrete = T) +
+      coord_cartesian(ylim = c(0, 1)) +
+      labs(x = "Degree", y = "Proportion of nodes") + 
+      theme_bw()+
+      theme(legend.position  = c(0.75 , 0.85)) +
+      theme(legend.title = element_blank()) +
+      theme(legend.text = element_text(size = fontSize3C/2)) +
+      theme(text = element_text(size = fontSize3C/2))
+    pdfName <- paste(odir, "/outdegree.pdf", sep = "")  
+    ggsave(pdfName, height = pdfHeight, width = pdfWidth)
+  }
+  
+  # comparison of prop of passive workers
+  df.ind.degree$passive = df.ind.degree$outdegree == 0 & df.ind.degree$indegree == 1
+  
+  dfDegreeSum = dfNetStat[,1:6]
+  dfDegreeSum$ID = paste(dfDegreeSum$Species, dfDegreeSum$Colony,
+                         dfDegreeSum$Treatment, dfDegreeSum$Type, sep="-")
+  dfDegreeSum$Event = paste(dfDegreeSum$Species, dfDegreeSum$Colony,
+                              dfDegreeSum$Treatment, sep="-")
+  dfDegreeSum = dfDegreeSum[order(dfDegreeSum$ID),]
+  
+  dfDegreeSum$passive = tapply(df.ind.degree$passive, df.ind.degree$ID, sum)
+  dfDegreeSum$active = tapply(!df.ind.degree$passive, df.ind.degree$ID, sum)
+  
+  dfDegreeSum$Genus <- dfDegreeSum$Species
+  dfDegreeSum$Genus[str_detect(dfDegreeSum$Genus, "diacamma")] <- "diacamma"
+  dfDegreeSum$Genus[str_detect(dfDegreeSum$Genus, "temnothorax")] <- "temnothorax"
+  dfDegreeSum$Genus[dfDegreeSum$Type == "transport"] <- "temnothorax_carrying"
+  
+  
+  r <- glmer(cbind(passive, active) ~ Genus + (1|Event), 
+             family = binomial, data=dfDegreeSum)
+  res <- Anova(r)
+  cat("Chisq =", res$Chisq, "; df =", res$Df, "; P =", res$`Pr(>Chisq)`, "\n")
+  
+  multicomparison<-glht(r,linfct=mcp(Genus="Tukey"))
+  res <- summary(multicomparison)
+  
 }
 #---------------------------------------------------------------------------#
 
