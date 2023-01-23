@@ -540,35 +540,50 @@ resultMotif <- function(){
   
   
   # statistical analysis
+  dfmotif$ID = paste(dfmotif$Species, dfmotif$Colony, dfmotif$Treatment, dfmotif$Type, sep="-")
+  dfmotif$Event = paste(dfmotif$Species, dfmotif$Colony, dfmotif$Treatment, sep="-")
+  dfmotif = dfmotif[order(dfmotif$ID),]
+  dfmotif_stat <- dfmotif[dfmotif$motif.id==0, c(1:5,11:13)]
+  dfmotif_stat$MotifTotal = tapply(dfmotif$motif.count, dfmotif$ID,  sum, na.rm=T)
+  dfmotif_stat$Motif4 = dfmotif[dfmotif$motif.id == 4, "motif.count"]
+  dfmotif_stat$Motif6 = dfmotif[dfmotif$motif.id == 6, "motif.count"]
+  
+  dfmotif_stat = dfmotif_stat[dfmotif_stat$nNodes > 20,]
+
   fname <- paste(odir, "/tandemMotifComparison.txt", sep = "")  
   sink(fname)
   cat("----------------------------------------------\n")
-  cat("Tests using LMM\n")
-  cat("Response variable: Proportion of motifs\n")
+  cat("Tests using GLMM\n")
+  cat("Response variable: Motif is target or not\n")
   cat("Explanatory variable: Recruitment types (Dia tandem vs Temno tandem vs Temno carrying)\n")
-  cat("Random effect: Colony nested within species\n")
+  cat("Random effect: Emigration event\n")
   cat("----------------------------------------------\n")
   
   cat("Motif id = 4 (A -> B -> C)\n")
-  r <- lmer(motif.prop~Genus + (1|Species/Colony), data=df.plot[df.plot$motif.id==4,]) 
+  r <- glmer(cbind(Motif4, (MotifTotal-Motif4) ) ~ Genus + (1|Event), 
+             family = binomial, data=dfmotif_stat)
   res <- Anova(r)
   cat("Chisq =", res$Chisq, "; df =", res$Df, "; P =", res$`Pr(>Chisq)`, "\n")
+  
   multicomparison<-glht(r,linfct=mcp(Genus="Tukey"))
   res <- summary(multicomparison)
+  
   for(i in 1:length(capture.output(res))){
     cat( capture.output(res)[i], "\n" )
   }
   
   cat("Motif id = 6 (B <- A -> C)\n")
-  r <- lmer(motif.prop~Genus + (1|Species/Colony), data=df.plot[df.plot$motif.id==6,]) 
+  r <- glmer(cbind(Motif6, (MotifTotal-Motif6) ) ~ Genus + (1|Event), 
+             family = binomial, data=dfmotif_stat)
   res <- Anova(r)
   cat("Chisq =", res$Chisq, "; df =", res$Df, "; P =", res$`Pr(>Chisq)`, "\n")
+  
   multicomparison<-glht(r,linfct=mcp(Genus="Tukey"))
   res <- summary(multicomparison)
   for(i in 1:length(capture.output(res))){
     cat( capture.output(res)[i], "\n" )
   }
-  
+  sink()
 }
 #---------------------------------------------------------------------------#
 
