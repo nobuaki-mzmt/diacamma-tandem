@@ -433,7 +433,7 @@ resultDegreeDstr <- function(){
     
     theme_set(theme_minimal())
     
-    df.plot <- subset(dfdegree,nNodes>20 & degree<6)
+    df.plot <- subset(dfdegree,nNodes>=20 & degree<6)
     sumrepdat <- summarySE(df.plot, measurevar = "prob",
                            groupvars=c("Direction", "degree", "Genus"))
     
@@ -502,6 +502,8 @@ resultDegreeDstr <- function(){
   
   # comparison of prop of passive workers
   df.ind.degree$passive = df.ind.degree$outdegree == 0 & df.ind.degree$indegree == 1
+  df.ind.degree$ID = paste(df.ind.degree$Species, df.ind.degree$Colony,
+                           df.ind.degree$Treatment, df.ind.degree$Type, sep="-")
   
   dfDegreeSum = dfNetStat[,1:6]
   dfDegreeSum$ID = paste(dfDegreeSum$Species, dfDegreeSum$Colony,
@@ -518,7 +520,7 @@ resultDegreeDstr <- function(){
   dfDegreeSum$Genus[str_detect(dfDegreeSum$Genus, "temnothorax")] <- "temnothorax"
   dfDegreeSum$Genus[dfDegreeSum$Type == "transport"] <- "temnothorax_carrying"
   
-  
+  dfDegreeSum = dfDegreeSum[dfDegreeSum$nNodes >=20, ]
   r <- glmer(cbind(passive, active) ~ Genus + (1|Event), 
              family = binomial, data=dfDegreeSum)
   res <- Anova(r)
@@ -547,7 +549,7 @@ resultMotif <- function(){
   dfmotif$Genus[str_detect(dfmotif$Genus, "temnothorax")] <- "temnothorax"
   dfmotif$Genus[dfmotif$Type == "transport"] <- "temnothorax_carrying"
   
-  df.plot <- subset(dfmotif,nNodes>20 & (motif.id == 4 | motif.id == 6))
+  df.plot <- subset(dfmotif,nNodes>=20 & (motif.id == 4 | motif.id == 6))
   df.plot$Genus <- factor(df.plot$Genus, levels = c("diacamma", "temnothorax", "temnothorax_carrying"))
   dodge_width = 0.75
   ggplot(df.plot, aes(x=as.factor(motif.id), y=motif.prop, fill=Genus))+
@@ -579,7 +581,7 @@ resultMotif <- function(){
   dfmotif_stat$Motif4 = dfmotif[dfmotif$motif.id == 4, "motif.count"]
   dfmotif_stat$Motif6 = dfmotif[dfmotif$motif.id == 6, "motif.count"]
   
-  dfmotif_stat = dfmotif_stat[dfmotif_stat$nNodes > 20,]
+  dfmotif_stat = dfmotif_stat[dfmotif_stat$nNodes >= 20,]
 
   fname <- paste(odir, "/tandemMotifComparison.txt", sep = "")  
   sink(fname)
@@ -591,7 +593,7 @@ resultMotif <- function(){
   cat("----------------------------------------------\n")
   
   cat("Motif id = 4 (A -> B -> C)\n")
-  r <- glmer(cbind(Motif4, (MotifTotal-Motif4) ) ~ Genus + (1|Event), 
+  r <- glmer(cbind(Motif4, (MotifTotal-Motif4) ) ~ Genus + (1|Colony/Event), 
              family = binomial, data=dfmotif_stat)
   res <- Anova(r)
   cat("Chisq =", res$Chisq, "; df =", res$Df, "; P =", res$`Pr(>Chisq)`, "\n")
@@ -604,7 +606,7 @@ resultMotif <- function(){
   }
   
   cat("Motif id = 6 (B <- A -> C)\n")
-  r <- glmer(cbind(Motif6, (MotifTotal-Motif6) ) ~ Genus + (1|Event), 
+  r <- glmer(cbind(Motif6, (MotifTotal-Motif6) ) ~ Genus + (1|Colony/Event), 
              family = binomial, data=dfmotif_stat)
   res <- Anova(r)
   cat("Chisq =", res$Chisq, "; df =", res$Df, "; P =", res$`Pr(>Chisq)`, "\n")

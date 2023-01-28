@@ -5,7 +5,7 @@ Explanatory variable: Recruitment types (Dia tandem vs Temno tandem vs Temno car
 Random effect: Emigration event
 ----------------------------------------------
 Motif id = 4 (A -> B -> C)
-Chisq = 60.15869 ; df = 2 ; P = 8.643817e-14 
+Chisq = 47.83966 ; df = 2 ; P = 4.09026e-11 
  
 	 Simultaneous Tests for General Linear Hypotheses 
  
@@ -13,19 +13,19 @@ Multiple Comparisons of Means: Tukey Contrasts
  
  
 Fit: glmer(formula = cbind(Motif4, (MotifTotal - Motif4)) ~ Genus +  
-    (1 | Event), data = dfmotif_stat, family = binomial) 
+    (1 | Colony/Event), data = dfmotif_stat, family = binomial) 
  
 Linear Hypotheses: 
                                         Estimate Std. Error z value Pr(>|z|)     
-temnothorax - diacamma == 0               1.1184     0.1461   7.656  < 0.001 *** 
-temnothorax_carrying - diacamma == 0      0.5754     0.1877   3.066  0.00598 **  
-temnothorax_carrying - temnothorax == 0  -0.5430     0.1646  -3.298  0.00266 **  
+temnothorax - diacamma == 0               1.1035     0.1618   6.820   <0.001 *** 
+temnothorax_carrying - diacamma == 0      0.4442     0.2472   1.797    0.166     
+temnothorax_carrying - temnothorax == 0  -0.6592     0.2323  -2.838    0.012 *   
 --- 
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
 (Adjusted p values reported -- single-step method) 
  
 Motif id = 6 (B <- A -> C)
-Chisq = 181.5854 ; df = 2 ; P = 3.708756e-40 
+Chisq = 129.3544 ; df = 2 ; P = 8.148011e-29 
  
 	 Simultaneous Tests for General Linear Hypotheses 
  
@@ -33,13 +33,13 @@ Multiple Comparisons of Means: Tukey Contrasts
  
  
 Fit: glmer(formula = cbind(Motif6, (MotifTotal - Motif6)) ~ Genus +  
-    (1 | Event), data = dfmotif_stat, family = binomial) 
+    (1 | Colony/Event), data = dfmotif_stat, family = binomial) 
  
 Linear Hypotheses: 
                                         Estimate Std. Error z value Pr(>|z|)     
-temnothorax - diacamma == 0              -1.7529     0.1349 -12.996  < 1e-04 *** 
-temnothorax_carrying - diacamma == 0     -0.7110     0.1727  -4.117 0.000118 *** 
-temnothorax_carrying - temnothorax == 0   1.0419     0.1502   6.936  < 1e-04 *** 
+temnothorax - diacamma == 0              -1.7604     0.1597 -11.021   <0.001 *** 
+temnothorax_carrying - diacamma == 0     -0.4801     0.2509  -1.913    0.131     
+temnothorax_carrying - temnothorax == 0   1.2803     0.2364   5.415   <0.001 *** 
 --- 
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
 (Adjusted p values reported -- single-step method) 

@@ -252,8 +252,7 @@ figStepSizeDistribution <- function() {
     fname <- paste(idir, "spatialMeasureSamples-", ds, NMIN, ".rda", sep = "")
     load(fname)
     dfData <- subset(dfData, SS %in% stepsInterval)
-    #dfData <- subset(dfData, SS %in% stepsInterval & Distance <= ssbounds[[dsidx]])
-    
+
     # Plot the results..
     ggplot(dfData, aes(x = Distance, y = SS / FPS, group = SS, fill = factor(..quantile..))) +
       stat_density_ridges(geom = "density_ridges_gradient",
@@ -286,6 +285,38 @@ figStepSizeDistribution <- function() {
     pdfName <- paste(odir, "stepSizeDistribution-", ds, "-Role.pdf", sep = "")
     ggsave(pdfName, height = pdfHeight, width = pdfWidth)
   }
+}
+#---------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------#
+# Checking tracking accuracy
+checkTrackingAccuracyDiacamma <- function(){
+  idir     <- "data/trajectory/processed/"
+  odir     <- "img/trajectory/"
+  stepsInterval    <- 1
+  
+  ds = 1
+  fname <- paste(idir, "spatialMeasureSamples-", Datasets[ds], NMIN, ".rda", sep = "")
+  load(fname)
+  dfData <- subset(dfData, SS %in% stepsInterval)
+  
+  # Plot the results..
+  
+  ggplot(dfData[dfData$Distance > 0,], aes(x = Distance, y = SS / FPS, group = SS)) +
+    stat_density_ridges(geom = "density_ridges_gradient",
+                        scale = 10, alpha = .7)     +
+    xlab("Step size (mm)") +
+    ylab("Sampling period (s)") +
+    scale_fill_viridis(discrete = T, alpha = .7, direction = 1) +
+    scale_x_continuous(limits = c(0,2))+
+    ggtitle(Datasets[ds]) +
+    theme(legend.position  = "none") +
+    theme(text = element_text(size = fontSize3C)) +
+    theme(plot.title = element_text(face = "bold", size = fontSize3C))+
+    geom_vline(xintercept = 0.067)
+  
+  pdfName <- paste(odir, "checkTrackingAccuracy-", Datasets[ds], ".pdf", sep = "")
+  ggsave(pdfName, height = pdfHeight, width = pdfWidth)
 }
 #---------------------------------------------------------------------------#
 

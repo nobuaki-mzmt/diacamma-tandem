@@ -835,7 +835,7 @@ computeTandemStatistics <- function(){
       df$LeaderAngle[df$Frame==0] <- NA
       df$LeaderAngle[df$Frame==max(df$Frame)] <- NA
       
-      ## for Diacamma, we removed the frames with recording errors
+      # for Diacamma, we removed the frames with recording errors
       if(i==1){ # diacamma
         df <- df[df$Frametype == 0,]
       }
