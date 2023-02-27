@@ -49,11 +49,11 @@ See the Method and Supplementary Materials for more details.
  		* [Tracking_failed.xlsx](./data/trajectory/Tracking_failed.xlsx) - Information for detection faulure during observation for D. cf indicum experiments
  	* [phylogeny](./data/phylogeny) -  Include tree data and csv data for ant recruitment from [Reeves and Moreau 2019](https://doi.org/10.26049/ASP77-2-2019-10)
 * [scripts](./scripts)
-	* [NetworkProcessing.R](./scripts/Output.R)
-	* [TrajectoryProcessing.R](./scripts/Phylogeny.R)
-	* [NetworkOutput.R](./scripts/Preprocess.R)
-	* [TrajectoryOutputs.R](./scripts/Sources.R)
-	* [Phylogeny.R](./scripts/Sources.R)
+	* [NetworkProcessing.R](./scripts/NetworkProcessing.R)
+	* [TrajectoryProcessing.R](./scripts/TrajectoryProcessing.R)
+	* [NetworkOutput.R](./scripts/NetworkOutput.R)
+	* [TrajectoryOutputs.R](./scripts/TrajectoryOutputs.R)
+	* [Phylogeny.R](./scripts/Phylogeny.R)
 * [img](./img)
 * [tracking](./tracking)
   * [TrackingConverter.R](./tracking/TrackingConverter.R) - Scripts to convert the results of FastTrack into UMATracker
