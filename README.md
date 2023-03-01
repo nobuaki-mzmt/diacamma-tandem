@@ -1,7 +1,7 @@
 # README
 
 This repository provides access to the data and source code used for the manuscript  
-**Cryptic functional diversity in ant tandem runs**  
+**Functional and mechanistic diversity in ant tandem communication**  
 Nobuaki Mizumoto<sup>1</sup>, Yasunari Tanaka<sup>2</sup>, Gabriele Valentini<sup>3</sup>, Thomas O. Richardson<sup>4</sup>, Sumana Annagiri<sup>5</sup>, Stephen C Pratt<sup>6</sup>, Hiroyuki Shimoji<sup>2</sup>  
 
 <sup>1</sup> Okinawa Institute of Science & Technology Graduate University, Onna-son, Okinawa, Japan  
