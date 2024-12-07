@@ -11,6 +11,8 @@ Nobuaki Mizumoto<sup>1</sup>, Yasunari Tanaka<sup>2</sup>, Gabriele Valentini<su
 <sup>5</sup> Behaviour and Ecology Lab, Department of Biological Sciences, Indian Institute of Science Education and Research, Mohanpur, India  
 <sup>6</sup> School of Life Sciences, Arizona State University, Tempe, AZ 85287, USA  
 
+[10.1016/j.isci.2023.106418](https://doi.org/10.1016/j.isci.2023.106418)
+
 ## Usage notes
 ### Tracking
 Trajectories of tandem running pairs in D. cf indicum were obtained by combining two different tracking softwares, [UMATracker](https://ymnk13.github.io/UMATracker/) and [FastTrack](https://www.fasttrack.sh/docs/interactiveTracking/), with python coding [TrimFocusedTandem.py](./tracking/TrimFocusedTandem.py) and R coding [TrackingConverter.R](./tracking/test/TrackingConverter.R).
